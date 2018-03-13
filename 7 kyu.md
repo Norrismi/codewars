@@ -89,5 +89,43 @@ return array.sort((a,b) => a.length - b.length)
 };
 ```
 
+## We Have Liftoff
+https://www.codewars.com/kata/we-have-liftoff/train/javascript/5aa6e6d8373c2e71bb00006f
+
+You have an array of numbers 1 through n (where 1 <= n <= 10). The array needs to be formatted correctly for the person reading the countdown of a spaceship launch.
+
+Unfortunately, the person reading the countdown only knows how to read strings. After the array is sorted correctly make sure it's in a format he can understand.
+
+Between each number should be a space and after the final number (n) should be the word 'liftoff!'
+
+```JS
+function liftoff(ins){
+  return ins.sort((a,b) => b-a).toString().concat(' liftoff!').replace(/,/g,' ')
+}
+
+```
+
+## Beginner Series #3 Sum of Numbers
+https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/train/javascript/5aa6ef917c7a5391c1000131
+
+Given two integers a and b, which can be positive or negative, find the sum of all the numbers between including them too and return it. If the two numbers are equal return a or b.
+
+Note: a and b are not ordered!
+
+```JS
+function GetSum( a,b ){
+  let arr = [a,b]
+  let high = Math.max(a,b)
+  let low = Math.min(a,b)+1
+
+for(i= low;i<high;i++){
+   arr.push(i)
+}
+return (a == b) ? a : arr.sort((a,b) => a - b).reduce((a,b) => a + b)
+  
+}
+
+```
+
 
 
