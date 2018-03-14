@@ -40,3 +40,19 @@ function findUniq(arr) {
   return (arr[0] !== arr[1]) ?  arr[0] : arr.pop()
 }
 ```
+
+## Reverse Words
+https://www.codewars.com/kata/reverse-words/train/javascript/5aa93722fd8c0676ca0000d6
+
+Write a reverseWords function that accepts a string a parameter, and reverses each word in the string. Any spaces in the string should be retained.
+
+Example:
+
+reverseWords("This is an example!"); // returns  "sihT si na !elpmaxe"
+reverseWords("double  spaces"); // returns  "elbuod  secaps"
+
+```JS
+function reverseWords(str) {
+  return  str.split('').reverse().join('').split(' ').reverse().join(' ')
+}
+```
