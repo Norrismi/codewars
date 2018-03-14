@@ -127,5 +127,40 @@ return (a == b) ? a : arr.sort((a,b) => a - b).reduce((a,b) => a + b)
 
 ```
 
+## Average Scores
+https://www.codewars.com/kata/average-scores/train/javascript/5aa865a1fd8c064ed5000026
+
+Create a function that returns the average of an array of numbers ("scores"), rounded to the nearest whole number. You are not allowed to use any loops (including for, for/in, while, and do/while loops).
+
+```JS
+function average(scores) {
+    return Math.round(scores.reduce((a,b)=>a+b)/scores.length)
+}
+```
+
+## Simple Fun #176: Reverse Letter
+https://www.codewars.com/kata/simple-fun-number-176-reverse-letter/train/javascript/5aa86b4a7c7a5362710000bd
+
+Task
+Given a string str, reverse it omitting all non-alphabetic characters.
+
+Example
+For str = "krishan", the output should be "nahsirk".
+
+For str = "ultr53o?n", the output should be "nortlu".
+
+Input/Output
+[input] string str
+
+A string consists of lowercase latin letters, digits and symbols.
+
+[output] a string
+
+```JS
+function reverseLetter(str) {
+  return str.split('').reverse().join('').replace(/[^A-Za-z]/gi, '')
+}
+```
+
 
 
