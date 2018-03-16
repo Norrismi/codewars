@@ -162,5 +162,19 @@ function reverseLetter(str) {
 }
 ```
 
+## Shortest Word
+https://www.codewars.com/kata/shortest-word/train/javascript/5aac4907fd5777073800025f
+
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
+
+```JS
+function findShort(s){
+  sorted = s.split(' ').map(a => a.length).sort((a,b)=> a-b)
+  return sorted[0]
+}
+```
+
 
 
