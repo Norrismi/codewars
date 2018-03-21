@@ -160,3 +160,14 @@ function betterThanAverage(classPoints, yourPoints) {
   return (yourPoints > a) ? true : false
 }
 ```
+
+### Calculate average
+https://www.codewars.com/kata/calculate-average/train/javascript/5aafebaefd5777dfab0000ce
+
+Write function avg which calculates average of numbers in given list.
+
+```JS
+function find_average(array) {
+  return array.reduce((a,b) => a+b)/array.length
+}
+```
