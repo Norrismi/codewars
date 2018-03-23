@@ -171,3 +171,20 @@ function find_average(array) {
   return array.reduce((a,b) => a+b)/array.length
 }
 ```
+
+### Opposite Number
+https://www.codewars.com/kata/opposite-number/train/javascript/5a78bbb0fd577718e80000b5
+
+Very simple, given a number, find its opposite.
+
+Examples:
+
+1: -1
+14: -14
+-34: 34
+
+```JS
+function opposite(number) {
+  return (number > 0)? number-number-number : Math.abs(number)
+}
+```
