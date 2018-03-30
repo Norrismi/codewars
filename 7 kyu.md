@@ -1,5 +1,23 @@
 # 7 kyu
 
+## Thinkful - List Drills: Longest word
+https://www.codewars.com/kata/thinkful-list-drills-longest-word/train/javascript/5abeb8eaa88ee7b8f4000100
+
+Write a function longest() that takes one argument, a list of words, and returns the length of the longest word in the list.
+
+For example:
+
+>>> words = ['simple', 'is', 'better', 'than', 'complex']
+>>> longest(words)
+7
+
+```JS
+function longest(words) {
+  return words.toString().split(',').sort((a,b) => a.length-b.length ).pop().length
+}
+
+```
+
 ## Reversed Strings
 
 https://www.codewars.com/kata/reversed-strings/train/javascript/5a936e6f5084d78d9f00004f
