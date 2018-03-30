@@ -19,6 +19,24 @@ return Math.max(...list);
 }
 ```
 
+## Return Negative
+https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
+
+In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
+Example:
+
+makeNegative(1); // return -1
+makeNegative(-5); // return -5
+makeNegative(0); // return 0
+
+```JS
+function makeNegative(num) {
+  return (num > 0) ? parseInt(`-${num}`,10) : num
+
+}
+```
+
 
 
 ## Jenny's secret message
