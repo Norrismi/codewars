@@ -18,6 +18,26 @@ function longest(words) {
 
 ```
 
+
+## Highest and Lowest
+https://www.codewars.com/kata/highest-and-lowest/train/javascript/5ac2dca6a88ee75ee6000013
+
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+Example:
+
+highAndLow("1 2 3 4 5"); // return "5 1"
+highAndLow("1 2 -3 4 5"); // return "5 -3"
+highAndLow("1 9 3 4 -5"); // return "9 -5"
+
+```JS
+function highAndLow(numbers){
+ let spl =  numbers.split(' ')
+ return `${Math.max(...spl)} ${Math.min(...spl)}`
+}
+```
+
+
 ## Reversed Strings
 
 https://www.codewars.com/kata/reversed-strings/train/javascript/5a936e6f5084d78d9f00004f
