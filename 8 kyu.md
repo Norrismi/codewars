@@ -19,6 +19,25 @@ return Math.max(...list);
 }
 ```
 
+## A Needle in the Haystack
+
+https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript/5ace59ee23c8186cae0001c6
+
+Can you find the needle in the haystack?
+
+Write a function findNeedle() that takes an array full of junk but containing one "needle"
+
+After your function finds the needle it should return a message (as a string) that says:
+
+"found the needle at position " plus the index it found the needle.
+
+```JS
+
+function findNeedle(haystack) {
+ return haystack.includes('needle')?  `found the needle at position ${haystack.indexOf('needle')}`: null
+}
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
