@@ -1,6 +1,15 @@
 5 kyu
 ==========
 
+## Moving Zeros To The End
+
+https://www.codewars.com/kata/moving-zeros-to-the-end/train/javascript/5ace60f73a33e62d1c00021a
+
+```JS
+var moveZeros = function (arr) {
+return arr.filter(a => a !== 0 ).concat(arr.filter(a => a === 0 ))
+}
+```
 
 ## Simple Pig Latin
 
