@@ -1,5 +1,22 @@
 # 7 kyu
 
+### Get the Middle Character
+https://www.codewars.com/kata/get-the-middle-character/train/javascript/5aa1a0cc373c2eb596000064
+
+You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+
+```JS
+function getMiddle(s){
+   
+  let evenOdd = s.length % 2 === 0
+  let minMid = s.charAt(s.length/2-1)
+  let mid = s.charAt(s.length/2)
+  
+  return (evenOdd == true)? minMid.concat(mid): mid
+}
+```
+
+
 ## Thinkful - List Drills: Longest word
 https://www.codewars.com/kata/thinkful-list-drills-longest-word/train/javascript/5abeb8eaa88ee7b8f4000100
 
