@@ -16,6 +16,18 @@ function getMiddle(s){
 }
 ```
 
+### Round to the next multiple of 5
+https://www.codewars.com/kata/round-to-the-next-multiple-of-5/train/javascript/5af24e0504a9266773000117
+
+Given an integer as input, can you round it to the next (meaning, "higher") 5?
+
+```JS
+function roundToNext5(n){
+  return Math.ceil(n/5)*5
+}
+
+```
+
 
 ## Thinkful - List Drills: Longest word
 https://www.codewars.com/kata/thinkful-list-drills-longest-word/train/javascript/5abeb8eaa88ee7b8f4000100
