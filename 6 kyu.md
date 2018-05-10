@@ -57,6 +57,22 @@ function reverseWords(str) {
 }
 ```
 
+## Reversed Words
+https://www.codewars.com/kata/reversed-words/train/javascript/5af4a1ee86d0752199000152
+
+Complete the solution so that it reverses all of the words within the string passed in.
+
+Example:
+
+reverseWords("The greatest victory is that which requires no battle")
+// should return "battle no requires which that is victory greatest The"
+
+```JS
+function reverseWords(str){
+  return str.split(' ').reverse().join(' ')
+}
+```
+
 ## Create Phone Number
 https://www.codewars.com/users/Norrismi/completed_solutions
 
