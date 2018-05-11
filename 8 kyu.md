@@ -209,6 +209,18 @@ function find_average(array) {
 }
 ```
 
+### Remove exclamation marks
+https://www.codewars.com/kata/remove-exclamation-marks/train/javascript/5af60e1186d0756d9500004a
+
+Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+```JS
+function removeExclamationMarks(s) {
+  return s.replace(/!/g, '')
+}
+
+```
+
 ### Opposite Number
 https://www.codewars.com/kata/opposite-number/train/javascript/5a78bbb0fd577718e80000b5
 
