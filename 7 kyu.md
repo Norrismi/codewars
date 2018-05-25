@@ -47,6 +47,25 @@ function longest(words) {
 
 ```
 
+## Reverse Letters in Sentence
+https://www.codewars.com/kata/reverse-letters-in-sentence/train/javascript/5b086a2c908b7e850d000016
+
+Take a sentence (string) and reverse each word in the sentence. Do not reverse the order of the words, just the letters in each word.
+
+If there is punctuation, it should be interpreted as a regular character; no special rules.
+
+If there is spacing before/after the input string, leave them there.
+
+String will not be empty.
+
+```JS
+
+function reverser(sen) {
+		return sen.split('').reverse().join('').split(' ').reverse().join(' ')
+}
+
+```
+
 
 ## Highest and Lowest
 https://www.codewars.com/kata/highest-and-lowest/train/javascript/5ac2dca6a88ee75ee6000013
