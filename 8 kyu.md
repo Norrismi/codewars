@@ -75,6 +75,21 @@ function greet(name){
 }
 ```
 
+## If you can't sleep, just count sheeps!!
+https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheeps/train/javascript/5b0e9a2d41e66a87390000d7
+
+Given a number, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep..."
+
+```JS
+var countSheep = function (num){
+let  text =   ``
+
+for(var i=1; i<=num; i++){
+   text += `${i} sheep...`
+}
+return text
+}
+```
 
 
 ## Keep up the hoop
