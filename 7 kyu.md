@@ -15,6 +15,17 @@ function getMiddle(s){
   return (evenOdd == true)? minMid.concat(mid): mid
 }
 ```
+### Credit Card Mask
+https://www.codewars.com/kata/credit-card-mask/train/javascript/5aa19a904a6b34f9a000003b
+
+Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen. Instead, we mask it.
+
+```JS
+function maskify(cc) {
+return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.slice(-4))
+}
+```
+
 
 ### Round to the next multiple of 5
 https://www.codewars.com/kata/round-to-the-next-multiple-of-5/train/javascript/5af24e0504a9266773000117
