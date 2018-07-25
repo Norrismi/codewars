@@ -19,6 +19,17 @@ return Math.max(...list);
 }
 ```
 
+## Find something in an Array
+https://www.codewars.com/kata/find-something-in-an-array/train/javascript/5b58e26c05f04b70ef00003e
+
+Create a find function that takes a string and an array as arguments. If the string is in the array, return true.
+
+```JS
+var find = function(string, array) {
+  return (array.includes(string))? true : false
+};
+```
+
 ## A Needle in the Haystack
 
 https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript/5ace59ee23c8186cae0001c6
