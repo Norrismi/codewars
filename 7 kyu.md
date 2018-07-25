@@ -25,7 +25,16 @@ function maskify(cc) {
 return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.slice(-4))
 }
 ```
+### Thinkful - String Drills: Repeater
+https://www.codewars.com/kata/thinkful-string-drills-repeater/train/javascript/5b58e5004a317ae08d000040
 
+Write a function named repeater() that takes two arguments (a string and an integer), and returns a new string where the input string is repeated that many times.
+
+```JS
+function repeater(str, n){
+  return str.repeat(n)
+}
+```
 
 ### Round to the next multiple of 5
 https://www.codewars.com/kata/round-to-the-next-multiple-of-5/train/javascript/5af24e0504a9266773000117
