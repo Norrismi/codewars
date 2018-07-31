@@ -156,6 +156,34 @@ function noSpace(x){
 
 ```
 
+## Calculate BMI
+https://www.codewars.com/kata/calculate-bmi/train/javascript/5b606e668f47bdcbe3000035
+Write function bmi that calculates body mass index (bmi = weight / height ^ 2).
+if bmi <= 18.5 return "Underweight"
+if bmi <= 25.0 return "Normal"
+if bmi <= 30.0 return "Overweight"
+if bmi > 30 return "Obese"
+
+```JS
+function bmi(w,h) {
+ let bmi = w/(h*h)
+    if (bmi <= 18.5){
+      greeting = "Underweight"
+    }
+    else if ( bmi <= 25){
+      greeting = "Normal"
+    }
+    else if ( bmi <= 30){
+      greeting = "Overweight"
+    }
+        else{
+      greeting = "Obese"
+    }
+    return greeting
+    
+}
+```
+
 
 ## Remove First and Last Character
 
