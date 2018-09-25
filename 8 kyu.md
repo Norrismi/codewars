@@ -263,6 +263,18 @@ function find_average(array) {
 }
 ```
 
+### Is n divisible by x and y?
+https://www.codewars.com/kata/is-n-divisible-by-x-and-y/train/javascript/5baa4a97c22b79f517000273
+
+Create a function isDivisible(n, x, y) that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits.
+
+```JS
+function isDivisible(n, x, y) {
+  return (n%x === 0 && n%y === 0 ) ? true : false
+}
+```
+
+
 ### Remove exclamation marks
 https://www.codewars.com/kata/remove-exclamation-marks/train/javascript/5af60e1186d0756d9500004a
 
