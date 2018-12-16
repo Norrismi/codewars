@@ -233,6 +233,26 @@ return (a == b) ? a : arr.sort((a,b) => a - b).reduce((a,b) => a + b)
 
 ```
 
+
+## Breaking chocolate problem
+https://www.codewars.com/kata/breaking-chocolate-problem/train/javascript/5c168187ccc95726f70001b8
+
+Your task is to split the chocolate bar of given dimension n x m into small squares. Each square is of size 1x1 and unbreakable. Implement a function that will return minimum number of breaks needed.
+
+For example if you are given a chocolate bar of size 2 x 1 you can split it to single squares in just one break, but for size 3 x 1 you must do two breaks.
+
+If input data is invalid you should return 0 (as in no breaks are needed if we do not have any chocolate to split). Input will always be a non-negative integer.
+
+```JS
+function breakChocolate(n,m) {
+let choc = [n,m]
+
+return (choc[0] && choc[1]>0)
+  ?choc[0]*choc[1]-1
+  : 0
+}
+```
+
 ## Average Scores
 https://www.codewars.com/kata/average-scores/train/javascript/5aa865a1fd8c064ed5000026
 
