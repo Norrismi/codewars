@@ -307,6 +307,17 @@ function removeExclamationMarks(s) {
 
 ```
 
+Convert a Number to a String!
+https://www.codewars.com/kata/convert-a-number-to-a-string/train/javascript/5c1820275065a94a6a00006f
+We need a function that can transform a number into a string.
+
+What ways of achieving this do you know?
+```JS
+function numberToString(num) {
+  return num.toString()
+}
+```
+
 ### Opposite Number
 https://www.codewars.com/kata/opposite-number/train/javascript/5a78bbb0fd577718e80000b5
 
