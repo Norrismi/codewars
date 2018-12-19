@@ -106,6 +106,17 @@ function greet(name){
 }
 ```
 
+## Simple multiplication
+https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
+
+This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+```JS
+function simpleMultiplication(num) {
+    return (num % 2 == 0) ? num * 8: num * 9
+}
+```
+
 ## If you can't sleep, just count sheeps!!
 https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheeps/train/javascript/5b0e9a2d41e66a87390000d7
 
