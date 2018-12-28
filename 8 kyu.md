@@ -69,6 +69,30 @@ return (total >=280)? total-50:
 }
 ```
 
+## Abbreviate a Two Word Name
+https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript/5c259198dd392c2c7800014f
+
+Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+
+The output should be two capital letters with a dot seperating them.
+
+It should look like this:
+
+Sam Harris => S.H
+
+Patrick Feeney => P.F
+
+```JS
+function abbrevName(name){
+  let arr =  name.split(' ')
+  let first = arr[0][0].toUpperCase()
+  let last = arr[1][0].toUpperCase()
+  return `${first}.${last}`
+
+}
+
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
