@@ -27,3 +27,22 @@ function pigIt(str){
 }
 
 ```
+
+## Regex Password Validation
+https://www.codewars.com/kata/regex-password-validation/train/javascript/5c2675e5f3e92460b5ab4be9
+You need to write regex that will validate a password to make sure it meets the following criteria:
+
+At least six characters long
+contains a lowercase letter
+contains an uppercase letter
+contains a number
+Valid passwords will only be alphanumeric characters.
+
+```JS 
+function validate(password) {
+  return /(^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$)/.test(password);
+}
+```
+
+
+
