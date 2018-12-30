@@ -93,6 +93,28 @@ function abbrevName(name){
 
 ```
 
+## Are You Playing Banjo?
+https://www.codewars.com/kata/are-you-playing-banjo/train/javascript/5c282436662e2f00091333a7
+
+Create a function which answers the question "Are you playing banjo?".
+If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+The function takes a name as its only argument, and returns one of the following strings:
+
+name + " plays banjo" 
+name + " does not play banjo"
+
+```JS
+function areYouPlayingBanjo(name) {
+  let cut = name.split('')
+  
+  return (cut[0] == 'R' || cut[0] == 'r')
+  ? `${name} plays banjo` 
+  : `${name} does not play banjo`
+  
+}
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
