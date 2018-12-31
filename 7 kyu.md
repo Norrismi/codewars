@@ -67,6 +67,28 @@ function longest(words) {
 
 ```
 
+## Sum of a sequence
+https://www.codewars.com/kata/sum-of-a-sequence/train/javascript/5c2588780b744390d9000123
+
+Your task is to make function, which returns the sum of a sequence of integers.
+
+The sequence is defined by 3 non-negative values: begin, end, step.
+
+If begin value is greater than the end, function should returns 0
+
+```JS
+const sequenceSum = (begin, end, step) => {
+  let arr = []
+
+  for (var i=begin; i<=end; i += step){
+    arr.push(i)
+  }
+ return (arr <= 0)? 0: arr.reduce((a,b )=> a+b)
+};
+
+```
+
+
 ## Reverse Letters in Sentence
 https://www.codewars.com/kata/reverse-letters-in-sentence/train/javascript/5b086a2c908b7e850d000016
 
