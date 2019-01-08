@@ -115,6 +115,25 @@ function areYouPlayingBanjo(name) {
 }
 ```
 
+## Correct the mistakes of the character recognition software
+https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software/train/javascript/5c338013fdcefd647d71c803
+
+Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
+
+When documents (especially pretty old ones written with a typewriter), are digitised character recognition softwares often make mistakes.
+
+```JS
+function correct(string){
+
+let str = string.split('')
+return str.map(a => (a === '5')
+  ? 'S': (a === '0')
+  ? 'O': (a === '1')
+  ? 'I': a).join('')
+ }
+
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
