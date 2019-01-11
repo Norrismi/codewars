@@ -93,6 +93,16 @@ function abbrevName(name){
 
 ```
 
+## Bin to Decimal
+https://www.codewars.com/kata/bin-to-decimal/train/javascript/5c38b74a23e1fc2b6e219f8c
+
+Complete the function which converts a binary number (given as a string) to a decimal number.
+```JS
+function binToDec(bin){
+  return parseInt(bin,2)
+}
+```
+
 ## Are You Playing Banjo?
 https://www.codewars.com/kata/are-you-playing-banjo/train/javascript/5c282436662e2f00091333a7
 
