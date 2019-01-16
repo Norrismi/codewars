@@ -103,6 +103,21 @@ function binToDec(bin){
 }
 ```
 
+## Filter out the geese
+
+https://www.codewars.com/kata/filter-out-the-geese/train/javascript/5c3f452ece5d8242a03fe16a
+
+Write a function, gooseFilter/goose_filter/GooseFilter, that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.
+
+```JS
+function gooseFilter (birds) {
+  let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  
+ return birds.filter(a => !geese.includes(a))
+
+}
+```
+
 ## Are You Playing Banjo?
 https://www.codewars.com/kata/are-you-playing-banjo/train/javascript/5c282436662e2f00091333a7
 
