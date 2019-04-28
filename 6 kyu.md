@@ -89,6 +89,26 @@ return (even.length > 1)? parseInt(odd) : parseInt(even)
 }
 ```
 
+## Format a string of names like 'Bart, Lisa & Maggie'.
+https://www.codewars.com/kata/format-a-string-of-names-like-bart-lisa-and-maggie/train/javascript/5aafc2a9ba1bb5e11a0000f7
+
+Given: an array containing hashes of names
+Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.
+
+```JS
+function list(arr){
+
+let count =  arr.length
+let last = arr.map(a => a.name).slice(-1)
+let name = arr.map(a => a.name).toString()
+let names = arr.map(a =>a.name).slice(0,-1).join(', ')+ `${' &'} ${last}`
+
+return (count>1)? names : name
+
+}
+list([{name: 'Bart'},{name: 'Lisa'}, {name: 'Doug'}])
+```
+
 ## Create Phone Number
 https://www.codewars.com/users/Norrismi/completed_solutions
 
