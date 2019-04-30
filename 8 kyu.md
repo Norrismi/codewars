@@ -92,6 +92,20 @@ function abbrevName(name){
 }
 
 ```
+## Remove Duplicates From List
+https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript/5b58e4456dc79e9f7000003c
+Define a function that removes duplicates from an array of numbers and returns it as a result.
+
+The order of the sequence has to stay the same.
+
+```JS
+
+function distinct(arr) {
+   return [...new Set(arr)]
+   
+}
+distinct([1,3,1,3,4,5,6])
+```
 
 ## Bin to Decimal
 https://www.codewars.com/kata/bin-to-decimal/train/javascript/5c38b74a23e1fc2b6e219f8c
