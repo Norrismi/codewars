@@ -132,6 +132,19 @@ function gooseFilter (birds) {
 }
 ```
 
+## get character from ASCII Value
+https://www.codewars.com/kata/get-character-from-ascii-value/train/javascript/5cc8e9c20cbae00013a01a0a
+Get character from ASCII Value
+Write a function getChar/GetChar/get_char which takes a number and returns the corresponding ASCII char for that value.
+
+```JS
+function getChar(c){
+
+  return String.fromCharCode(c)
+}
+getChar(65)
+```
+
 ## Are You Playing Banjo?
 https://www.codewars.com/kata/are-you-playing-banjo/train/javascript/5c282436662e2f00091333a7
 
