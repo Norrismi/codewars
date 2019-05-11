@@ -107,6 +107,23 @@ function distinct(arr) {
 distinct([1,3,1,3,4,5,6])
 ```
 
+## Grasshopper - If/else syntax debug
+https://www.codewars.com/kata/grasshopper-if-slash-else-syntax-debug/train/javascript/5cd62b0e385bfb002846181b
+If/else syntax debug
+While making a game, your partner, Greg, decided to create a function to check if the user is still alive called checkAlive/CheckAlive. Unfortunately, Greg made some errors while creating the function.
+
+checkAlive/CheckAlive should return true if the player's health is greater than 0 or false if it is 0 or below.
+
+checkAlive receives one parameter health which will always be a whole number between -10 and 10.
+```JS
+function checkAlive (health) {
+ return (health <= 0) ? false : true
+
+}
+checkAlive(5)
+
+```
+
 ## Bin to Decimal
 https://www.codewars.com/kata/bin-to-decimal/train/javascript/5c38b74a23e1fc2b6e219f8c
 
