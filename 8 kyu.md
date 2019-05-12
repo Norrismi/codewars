@@ -221,6 +221,25 @@ function makeNegative(num) {
 }
 ```
 
+## Will there be enough space?
+
+https://www.codewars.com/kata/will-there-be-enough-space/train/javascript/5cd62c9ef446b00012c1c449
+
+You have to write a function that accepts three parameters:
+
+cap is the amount of people the bus can hold excluding the driver.
+on is the number of people on the bus.
+wait is the number of people waiting to get on to the bus.
+If there is enough space, return 0, and if there isn't, return the number of passengers he can't take.
+
+```JS
+function enough(cap, on, wait) {
+  total = on + wait
+  
+  return (on + wait > cap)? total - cap : 0 
+}
+enough(10,5,5)
+```
 
 
 ## Jenny's secret message
