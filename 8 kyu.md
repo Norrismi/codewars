@@ -203,6 +203,16 @@ return str.map(a => (a === '5')
 
 ```
 
+## Beginner - Lost Without a Map
+https://www.codewars.com/kata/beginner-lost-without-a-map/train/javascript/5d13fb7ec4592700219374a2
+Given an array of integers, return a new array with each value doubled.
+
+```JS
+function maps(x){
+ return x.map(a => a*2)
+}
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
