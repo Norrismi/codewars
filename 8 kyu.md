@@ -213,6 +213,27 @@ function maps(x){
 }
 ```
 
+## Capitalization and Mutability
+https://www.codewars.com/kata/capitalization-and-mutability/train/javascript/5d1a3ffd0e313ea65c52b6d0
+Your coworker was supposed to write a simple helper function to capitalize a string (that contains a single word) before they went on vacation.
+
+Unfortunately, they have now left and the code they gave you doesn't work. Fix the helper function they wrote so that it works as intended (i.e. make the first character in the string "word" upper case).
+
+Don't worry about numbers, special characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.
+
+```JS
+function capitalizeWord(word) {
+  let sp = word.split('')
+  let start = sp[0].toUpperCase()
+
+    sp.splice(0,1)
+    sp.unshift(start)
+    return sp.join('')
+  
+}
+capitalizeWord('glasses')
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
