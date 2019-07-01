@@ -149,6 +149,21 @@ function gooseFilter (birds) {
 }
 ```
 
+## Squash the bugs
+https://www.codewars.com/kata/squash-the-bugs/train/javascript/5d1a6810c459270017c17b0d
+Simple challenge - eliminate all bugs from the supplied code so that the code runs and outputs the expected value. Output should be the length of the longest word, as a number.
+
+There will only be one 'longest' word.
+
+```JS
+function findLongest(str){
+  
+  return Math.max(...str.split(' ').map(a => a.length))
+   
+}
+findLongest("Lets all go on holiday")
+```
+
 ## get character from ASCII Value
 https://www.codewars.com/kata/get-character-from-ascii-value/train/javascript/5cc8e9c20cbae00013a01a0a
 Get character from ASCII Value
