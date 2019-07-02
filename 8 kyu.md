@@ -267,6 +267,19 @@ function makeNegative(num) {
 }
 ```
 
+##Sum Mixed Array
+https://www.codewars.com/kata/sum-mixed-array/train/javascript/5d1ba54b52d8e1001138251c
+
+Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+
+```JS
+function sumMix(arr){
+
+return arr.map(a => parseInt(a)).reduce((a,b) => a+b)
+
+}
+```
+
 ## Will there be enough space?
 
 https://www.codewars.com/kata/will-there-be-enough-space/train/javascript/5cd62c9ef446b00012c1c449
