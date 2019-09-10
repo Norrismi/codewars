@@ -30,6 +30,17 @@ var find = function(string, array) {
 };
 ```
 
+##Fake Binary
+https://www.codewars.com/kata/fake-binary/train/javascript/5d77e95d760cfd001e1c52a3
+
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+```JS
+function fakeBin(num){
+return num.split('').map(a => (a>=5) ?'1' : '0').join('')
+}
+```
+
 ## A Needle in the Haystack
 
 https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript/5ace59ee23c8186cae0001c6
