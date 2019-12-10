@@ -25,6 +25,25 @@ function maskify(cc) {
 return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.slice(-4))
 }
 ```
+
+### Form The Minimum
+https://www.codewars.com/kata/form-the-minimum/train/javascript/5deedc7f857f8000189dbe57
+
+Given a list of digits, return the smallest number that could be formed from these digits, using the digits only once (ignore duplicates).
+
+```JS
+function minValue(values){
+
+let arr = [...new Set(values)]
+
+return parseInt(  arr.sort((a,b)=>a-b).join(''))
+
+
+}
+minValue([4, 7, 5, 7])
+```
+
+
 ### Thinkful - String Drills: Repeater
 https://www.codewars.com/kata/thinkful-string-drills-repeater/train/javascript/5b58e5004a317ae08d000040
 
