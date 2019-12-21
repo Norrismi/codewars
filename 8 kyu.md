@@ -116,6 +116,17 @@ function abbrevName(name){
 }
 
 ```
+
+## Third Angle of a Triangle
+https://www.codewars.com/kata/5a023c426975981341000014/train/javascript
+You are given two angles (in degrees) of a triangle.
+
+```
+function otherAngle(a, b) {
+  return 180-(a+b)
+}
+```
+
 ## Remove Duplicates From List
 https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript/5b58e4456dc79e9f7000003c
 Define a function that removes duplicates from an array of numbers and returns it as a result.
