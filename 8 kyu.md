@@ -284,6 +284,20 @@ function capitalizeWord(word) {
 capitalizeWord('glasses')
 ```
 
+## Will there be enough space?
+https://www.codewars.com/kata/5875b200d520904a04000003/train/javascript/5cd81813accbd30018210051
+
+Bob is working as a bus driver. However, he has become extremely popular amongst the city's residents. With so many passengers wanting to get aboard his bus, he sometimes has to face the problem of not enough space left on the bus! He wants you to write a simple program telling him if he will be able to fit all the passengers.
+
+```JS
+function enough(cap, on, wait) {
+let dif = Math.abs((cap - on)-wait)
+
+return (on + wait < cap) ? 0: dif
+}
+enough(10,5,5)
+```
+
 ## Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
