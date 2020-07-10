@@ -22,6 +22,24 @@ function digital_root(n) {
 
 ```
 
+## Stop gninnipS My sdroW!
+https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript/5aac33ca9186c6490d0000bc
+
+Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"
+
+```JS
+function spinWords(str){
+
+return str.split(' ').map(a => (a.length>= 5) 
+? a.split('').reverse().join('') 
+: a).join(' ')
+ 
+}
+spinWords("Hey fellow warriors")
+```
+
 ## Find the unique number
 https://www.codewars.com/kata/find-the-unique-number-1/train/javascript/5aa7e781ba1bb5a1ba00013a
 
