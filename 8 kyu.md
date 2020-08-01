@@ -93,6 +93,43 @@ return (total >=280)? total-50:
 }
 ```
 
+## Grader
+https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/javascript/5f25b9a223c9aa002e1bdc4f
+
+Create a function that takes a number as an argument and returns a grade based on that number.
+
+```JS
+function grader(score) {
+   switch(true){
+    case  score > 1.00 : 
+    return 'F';
+      break;
+
+    case  score >= 0.9 : 
+    return 'A';
+      break;
+
+    case  score >= 0.8 : 
+    return 'B';
+      break;
+
+     case score >= 0.7 : 
+     return 'C';
+      break;
+
+    case  score >= 0.6 : 
+    return 'D';
+      break;
+    
+    case  score <= 0.59 : 
+    return 'F';
+      break;
+ 
+
+  };
+}
+```
+
 ## Abbreviate a Two Word Name
 https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript/5c259198dd392c2c7800014f
 
