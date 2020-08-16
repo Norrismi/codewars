@@ -93,6 +93,35 @@ return (total >=280)? total-50:
 }
 ```
 
+## Hello, Name or World!
+https://www.codewars.com/kata/57e3f79c9cb119374600046b/train/javascript
+
+Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! if name is not given (or passed as an empty String).
+
+Assuming that name is a String and it checks for user typos to return a name with a first capital letter (Xxxx).
+
+```JS
+function hello(name) {
+
+
+  if( name == null || !name.length){
+    return 'Hello, World!'
+  }else{
+
+let arr = name.toLowerCase().split('')
+let first =  arr[0][0].toUpperCase()
+arr.splice(0,1)
+
+ let newName  = first.split('').concat(arr).join('')
+
+
+return !name.length ? 'Hello, World!' : `Hello, ${newName}!`  
+
+  }
+}
+hello()
+```
+
 ## Grader
 https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/javascript/5f25b9a223c9aa002e1bdc4f
 
