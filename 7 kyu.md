@@ -102,6 +102,29 @@ function squareDigits(num){
 
 ```
 
+## Exclamation marks series #13: Count the number of exclamation marks and question marks, return the product
+https://www.codewars.com/kata/57fb142297e0860073000064/train/javascript/5f39b3ce527185003250b903
+
+```JS
+function product(s){
+
+if (!s.length){
+  return 0
+}else{
+
+let ex = s.split('').map(a => a.match('!')? true : false).reduce((a,b)=> a+b)
+
+let quest = s.split('').map(a => a.match('^[?]+$')? true : false).reduce((a,b)=> a+b)
+
+return  quest*ex
+  }
+
+  
+}
+product('!!??')
+```
+
+
 
 ## Thinkful - List Drills: Longest word
 https://www.codewars.com/kata/thinkful-list-drills-longest-word/train/javascript/5abeb8eaa88ee7b8f4000100
