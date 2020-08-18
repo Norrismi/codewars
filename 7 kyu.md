@@ -180,6 +180,19 @@ const sequenceSum = (begin, end, step) => {
 
 ```
 
+## String ends with?
+https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript/5d77ddd1091c5e00112cd3b6
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+```JS
+function solution(str, ending){
+  
+return str.endsWith(ending)
+  
+}
+solution('abcde', 'cde')
+```
+
 
 ## Reverse Letters in Sentence
 https://www.codewars.com/kata/reverse-letters-in-sentence/train/javascript/5b086a2c908b7e850d000016
