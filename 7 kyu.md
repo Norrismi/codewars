@@ -159,6 +159,20 @@ function longest(words) {
 
 ```
 
+## Find the middle element
+https://www.codewars.com/kata/545a4c5a61aa4c6916000755/train/javascript/5c258cc50b744390d9000130
+
+As a part of this Kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
+
+```JS
+var gimme = function (arr) {
+
+return arr.findIndex(number => 
+number == arr.filter(a =>  a < Math.max(...arr) && a > Math.min(...arr)))
+
+};
+```
+
 ## Sum of a sequence
 https://www.codewars.com/kata/sum-of-a-sequence/train/javascript/5c2588780b744390d9000123
 
