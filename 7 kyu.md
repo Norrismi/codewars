@@ -124,6 +124,21 @@ return  quest*ex
 product('!!??')
 ```
 
+## Fix string case
+https://www.codewars.com/kata/5b180e9fedaa564a7000009a/train/javascript/5f3b1f44e36fd40019cc8967
+
+```JS
+function solve(s){
+let up = 0
+let low = 0
+
+ s.split('').map(a => a == a.toUpperCase()? up++ : low++)
+
+ return (up > low)? s.toUpperCase() : s.toLowerCase()
+
+}
+```
+
 
 
 ## Thinkful - List Drills: Longest word
