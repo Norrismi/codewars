@@ -394,6 +394,20 @@ return (choc[0] && choc[1]>0)
 }
 ```
 
+## Return a string's even characters
+https://www.codewars.com/kata/566044325f8fddc1c000002c/train/javascript
+
+Write a function that returns a sequence (index begins with 1) of all the even characters from a string. If the string is smaller than two characters or longer than 100 characters, the function should return "invalid string".
+
+```JS
+function evenChars(str) {
+
+return (str.length< 2 || str.length > 100 ) ? "invalid string" 
+
+  : str.split('').filter((a,b) => b%2)
+}
+```
+
 ## Average Scores
 https://www.codewars.com/kata/average-scores/train/javascript/5aa865a1fd8c064ed5000026
 
