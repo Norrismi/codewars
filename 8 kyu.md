@@ -159,6 +159,34 @@ function grader(score) {
 }
 ```
 
+## L1: Bartender, drinks!
+https://www.codewars.com/kata/568dc014440f03b13900001d/train/javascript/5f3e927d28bb8e001046fe14
+
+Write a function getDrinkByProfession/get_drink_by_profession() that receives as input parameter a string, and produces outputs according to the following table:
+
+```JS
+function getDrinkByProfession(param){
+
+switch(param.toLowerCase()){
+    case "jabroni" : return	"Patron Tequila"
+
+    case "school counselor": return "Anything with Alcohol"
+
+    case "programmer": return "Hipster Craft Beer"
+
+    case "bike gang member": return "Moonshine" 
+
+    case "politician": return "Your tax dollars" 
+
+    case "rapper": return "Cristal" 
+
+  default: return "Beer"
+
+}
+}
+
+```
+
 ## Abbreviate a Two Word Name
 https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript/5c259198dd392c2c7800014f
 
