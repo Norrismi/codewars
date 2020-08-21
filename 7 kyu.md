@@ -140,6 +140,20 @@ let low = 0
 ```
 
 
+## Is this a triangle?
+https://www.codewars.com/kata/56606694ec01347ce800001b/train/javascript
+Implement a method that accepts 3 integer values a, b, c. The method should return true if a triangle can be built with the sides of given length and false in any other case.
+
+
+```JS
+function isTriangle(a,b,c){
+let arr = [a,b,c].sort()
+
+return (arr[0] + arr[1] > arr[2]) ? true : false
+}
+```
+
+
 
 ## Thinkful - List Drills: Longest word
 https://www.codewars.com/kata/thinkful-list-drills-longest-word/train/javascript/5abeb8eaa88ee7b8f4000100
