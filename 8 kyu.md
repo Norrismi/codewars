@@ -159,6 +159,34 @@ function grader(score) {
 }
 ```
 
+
+## Count of positives / sum of negatives
+https://www.codewars.com/kata/576bb71bbbcf0951d5000044/train/javascript/5ab4598f6a176b73dc0000b4
+
+Given an array of integers.
+
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers.
+
+If the input array is empty or null, return an empty array.
+
+```JS
+function countPositivesSumNegatives(arr) {
+
+  if(arr == null || !arr.length ){
+    return []
+  }else{
+
+    let pos =  arr.filter(a => a>0 ).length
+
+    let neg =  arr.filter(a => a<0 ).reduce((a,b)=> a+b);
+
+    return [pos,neg]
+  }
+}
+```
+
+
+
 ## L1: Bartender, drinks!
 https://www.codewars.com/kata/568dc014440f03b13900001d/train/javascript/5f3e927d28bb8e001046fe14
 
