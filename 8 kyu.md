@@ -54,6 +54,18 @@ return num.split('').map(a => (a>=5) ?'1' : '0').join('')
 }
 ```
 
+
+## Find numbers which are divisible by given number
+https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript/5f7c8ce6adfe0d000f67e7f1
+
+Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of numbers and the second is the divisor.
+
+```JS
+function divisibleBy(numbers, divisor){
+return numbers.map(a => (a == 0)? a :(a%divisor == 0 )? a: null ).filter(a => a !== null)
+}
+```
+
 ## A Needle in the Haystack
 
 https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript/5ace59ee23c8186cae0001c6
