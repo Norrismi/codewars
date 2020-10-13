@@ -26,6 +26,27 @@ return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.sli
 }
 ```
 
+### Growth of a Population
+https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript/5ab178b97c7a53638a000071
+
+In a small town the population is p0 = 1000 at the beginning of a year. The population regularly increases by 2 percent per year and moreover 50 new inhabitants per year come to live in the town. How many years does the town need to see its population greater or equal to p = 1200 inhabitants?
+
+```JS
+function nbYear(orgPop, per, inc, endPop) {
+ 
+  
+    let years = 0;
+    let percent = per/100
+
+
+    while(orgPop < endPop){
+      orgPop += (orgPop * percent) + inc
+      years++;
+    }
+    return years
+}
+```
+
 ### Isograms
 https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/javascript
 
