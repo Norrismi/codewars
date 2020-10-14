@@ -134,6 +134,24 @@ return !name.length ? 'Hello, World!' : `Hello, ${newName}!`
 hello()
 ```
 
+## Pre-FizzBuzz Workout #1
+https://www.codewars.com/kata/569e09850a8e371ab200000b/train/javascript/5f864e21c00bae002e4b3f4a
+
+Your inputs: a positive integer, n, greater than or equal to one. n is provided, you have NO CONTROL over its value.
+
+```JS
+function preFizz(n) {
+let arr = []
+
+
+for(i=1; i<=n; i++){
+  arr.push(i)
+}
+return arr
+  
+}
+```
+
 ## Grader
 https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/javascript/5f25b9a223c9aa002e1bdc4f
 
