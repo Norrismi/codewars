@@ -161,6 +161,23 @@ let low = 0
 ```
 
 
+## Small enough? - Beginner
+https://www.codewars.com/kata/57cc981a58da9e302a000214/train/javascript/5f86510085311d000f84b29f
+You will be given an array and a limit value. You must check that all values in the array are below or equal to the limit value. If they are, return true. Else, return false.
+
+```JS
+function smallEnough(arr, limit){
+let m = arr.map((a) => (a <= limit)? true : false)
+
+let sum =  m.reduce((a,b) => a+b)
+
+return (sum ==  arr.length)? true : false
+
+
+
+}
+```
+
 ## Is this a triangle?
 https://www.codewars.com/kata/56606694ec01347ce800001b/train/javascript
 Implement a method that accepts 3 integer values a, b, c. The method should return true if a triangle can be built with the sides of given length and false in any other case.
