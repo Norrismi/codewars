@@ -19,6 +19,25 @@ return Math.max(...list);
 }
 ```
 
+## All Star Code Challenge #18
+https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript/5f908924fb73960014526881
+
+This Kata is intended as a small challenge for my students
+
+All Star Code Challenge #18
+
+Create a function called that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.
+
+If no occurrences can be found, a count of 0 should be returned.
+
+```JS
+function strCount(str, letter){  
+
+ return str.split('').filter(a => a == letter).length
+}
+
+```
+
 ## Find something in an Array
 https://www.codewars.com/kata/find-something-in-an-array/train/javascript/5b58e26c05f04b70ef00003e
 
