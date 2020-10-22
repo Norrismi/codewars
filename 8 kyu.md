@@ -73,6 +73,17 @@ return num.split('').map(a => (a>=5) ?'1' : '0').join('')
 }
 ```
 
+## altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+https://www.codewars.com/kata/56efc695740d30f963000557/train/javascript/5deee3a0df8a1200163a9d65
+
+Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase. For example:
+
+```JS
+String.prototype.toAlternatingCase = function () {
+    return this.split('').map(a => a === a.toLowerCase()? a.toUpperCase():  a.toLowerCase() ).join('')
+}
+```
+
 
 ## Find numbers which are divisible by given number
 https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript/5f7c8ce6adfe0d000f67e7f1
