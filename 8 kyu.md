@@ -19,6 +19,18 @@ return Math.max(...list);
 }
 ```
 
+## Removing Elements
+https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
+
+Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+
+```JS
+function removeEveryOther(arr){
+return arr.filter((a,i) => i%2 == 0)
+
+}
+```
+
 ## All Star Code Challenge #18
 https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript/5f908924fb73960014526881
 
