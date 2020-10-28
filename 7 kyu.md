@@ -92,6 +92,27 @@ function repeater(str, n){
 }
 ```
 
+### Responsible Drinking
+https://www.codewars.com/kata/5aee86c5783bb432cd000018/train/javascript/5f98c141c230710028fbaadc
+
+Codewars Bar recommends you drink 1 glass of water per standard drink so you're not hungover tomorrow morning.
+
+Your fellow coders have bought you several drinks tonight in the form of a string. Return a string suggesting how many glasses of water you should drink to not be hungover.
+
+```JS
+function hydrate(s) {
+
+let split =  s.split(' ')
+
+let num =  split.filter(a => !isNaN(a) ? Number(a) : null)
+
+let final =  num.map(a => Number(a)).reduce((a,b)=> a+b)
+
+return (final == 1)? `${final} glass of water` : `${final} glasses of water`
+
+}
+```
+
 ### Round to the next multiple of 5
 https://www.codewars.com/kata/round-to-the-next-multiple-of-5/train/javascript/5af24e0504a9266773000117
 
