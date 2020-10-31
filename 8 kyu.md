@@ -75,6 +75,19 @@ return (bullets >= dragons*2)? true : false
 ```
 
 
+## Twice as old
+https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
+
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+
+```JS
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs((sonYearsOld*2)-dadYearsOld)
+}
+
+```
+
+
 ### Quarter of the year
 Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
 
