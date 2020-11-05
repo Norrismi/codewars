@@ -88,6 +88,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 ```
 
 ### The Feast of Many Beasts
+https://www.codewars.com/kata/5aa736a455f906981800360d/train/javascript/5f3d805268cd2b00249afeb7
 
 ```JS
 function feast(beast, dish) {
