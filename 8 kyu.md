@@ -87,6 +87,19 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 
 ```
 
+### The Feast of Many Beasts
+
+```JS
+function feast(beast, dish) {
+let beastL = beast.split('').pop()
+let dishL = dish.split('').pop()
+
+return (beast[0] == dish[0] && beastL == dishL ) ? true : false
+
+
+}
+```
+
 
 ### Quarter of the year
 Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
