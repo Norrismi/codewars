@@ -166,6 +166,27 @@ return  quest*ex
 product('!!??')
 ```
 
+## Even or Odd - Which is Greater?
+https://www.codewars.com/kata/57f7b8271e3d9283300000b4/train/javascript
+
+```JS
+function evenOrOdd(str) {
+
+
+let arr = str.split('')
+
+let even = arr.filter(a => a%2 == 0)
+let odd = arr.filter(a => a%2 > 0)
+
+let oddSum = odd.map(a => Number(a)).reduce((a,b)=> a+b)
+
+let evenSum = even.map(a => Number(a)).reduce((a,b)=> a+b)
+
+return (oddSum == evenSum) ? 'Even and Odd are the same' : (oddSum > evenSum) ?  'Odd is greater than Even' : 'Even is greater than Odd' 
+
+}
+```
+
 ## Fix string case
 https://www.codewars.com/kata/5b180e9fedaa564a7000009a/train/javascript/5f3b1f44e36fd40019cc8967
 
