@@ -162,6 +162,37 @@ function howMuchILoveYou(n) {
 }
 ```
 
+### Grasshopper - Grade book
+https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript/5fa5bbd7662218001932dc7b
+
+Complete the function so that it finds the mean of the three scores passed to it and returns the letter value associated with that grade.
+
+```JS
+function getGrade (s1, s2, s3) {
+
+let arr = []
+
+arr.push(s1,s2,s3)
+
+let score =  arr.reduce((a,b) => a+b)/3
+
+switch(true){
+  case 90 <= score: return 'A'
+ 
+  case 80 <= score: return 'B'
+
+  case 70 <= score: return 'C'
+ 
+  case 60 <= score: return 'D'
+
+  case  0 <= score: return 'F'
+
+    }
+
+}
+
+```
+
 
 ##Fake Binary
 https://www.codewars.com/kata/fake-binary/train/javascript/5d77e95d760cfd001e1c52a3
