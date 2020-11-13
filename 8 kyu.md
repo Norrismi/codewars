@@ -193,6 +193,17 @@ switch(true){
 
 ```
 
+## Can we divide it?
+https://www.codewars.com/kata/5a2b703dc5e2845c0900005a/train/javascript
+
+Your task is to create functionisDivideBy (or is_divide_by) to check if an integer number is divisible by each out of two arguments.
+
+```JS
+function isDivideBy(num, a, b) {
+  return (num%a == 0 && num%b == 0) ? true: false
+}
+```
+
 
 ##Fake Binary
 https://www.codewars.com/kata/fake-binary/train/javascript/5d77e95d760cfd001e1c52a3
