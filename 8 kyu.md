@@ -74,6 +74,18 @@ return (bullets >= dragons*2)? true : false
 }
 ```
 
+## DNA to RNA Conversion
+https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript
+
+Create a function which translates a given DNA string into RNA.
+
+```JS
+function DNAtoRNA(dna) {
+  return dna.split('').map(a => a.replace('T','U')).join('')
+
+}
+```
+
 
 ## Twice as old
 https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
