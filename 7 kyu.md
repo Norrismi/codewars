@@ -144,6 +144,17 @@ function squareDigits(num){
 
 ```
 
+## You're a square!
+https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript/5c258c9eb26767341100015f
+
+```JS
+var isSquare = function(n){
+let sq =  Math.sqrt(n).toFixed(4)
+
+return (sq * sq == n)? true : false
+}
+```
+
 ## Exclamation marks series #13: Count the number of exclamation marks and question marks, return the product
 https://www.codewars.com/kata/57fb142297e0860073000064/train/javascript/5f39b3ce527185003250b903
 
