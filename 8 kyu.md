@@ -19,6 +19,22 @@ return Math.max(...list);
 }
 ```
 
+### Is it a palindrome?
+https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript/601322d38c0712002c5ac457
+
+Write function isPalindrome that checks if a given string (case insensitive) is a palindrome.
+
+```JS
+function isPalindrome(x) {
+  let reverse = x.toLowerCase().split('').reverse().join('')
+
+  return (reverse == x.toLowerCase()) ? true : false
+
+
+}
+isPalindrome('nope')
+```
+
 ## Removing Elements
 https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
 
