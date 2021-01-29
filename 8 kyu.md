@@ -66,6 +66,23 @@ function strCount(str, letter){
 
 ```
 
+## Sort and Star
+https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/javascript/60147576e7b8680008133762
+
+You will be given a vector of strings. You must sort it alphabetically (case-sensitive, and based on the ASCII values of the chars) and then return the first value.
+
+The returned value must be a string, and have "***" between each of its letters.
+
+You should not remove or add elements from/to the array.
+
+```JS
+function twoSort(s) {
+
+return s.sort().shift().split('').map(a => a +  '***').join('').slice(0,-3)
+
+}
+```
+
 ## Find something in an Array
 https://www.codewars.com/kata/find-something-in-an-array/train/javascript/5b58e26c05f04b70ef00003e
 
