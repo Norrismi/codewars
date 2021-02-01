@@ -47,6 +47,32 @@ function nbYear(orgPop, per, inc, endPop) {
 }
 ```
 
+### Find the stray number
+https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript/5cc4ba70701f0d001122b50e
+
+You are given an odd-length array of integers, in which all of them are the same, except for one single number.
+
+Complete the method which accepts such an array, and returns that single different number.
+
+```JS
+function stray(num) {
+
+
+let sort =  num.sort()
+
+if(num[0] !== num[1]){
+  
+return num.shift()
+
+}else{
+  return num.pop()
+}
+
+
+}
+
+```
+
 ### Isograms
 https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/javascript
 
