@@ -132,6 +132,18 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 
 ```
 
+
+## Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
+https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/javascript/5dfb62547a364400145f0c89
+
+```JS
+function replace(str){
+
+return str.replace(/[aeiouAEIOU]/gi, "!")
+  
+}
+```
+
 ### The Feast of Many Beasts
 https://www.codewars.com/kata/5aa736a455f906981800360d/train/javascript/5f3d805268cd2b00249afeb7
 
