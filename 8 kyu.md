@@ -35,6 +35,35 @@ function isPalindrome(x) {
 isPalindrome('nope')
 ```
 
+
+### Drink about
+https://www.codewars.com/kata/56170e844da7c6f647000063/train/javascript/6029ab05213d22002b975f39
+
+Make a function that receive age, and return what they drink.
+
+```JS
+function peopleWithAgeDrink(old){
+
+
+switch(true){
+ case old < 14: 
+  return 'drink toddy';
+
+  case old < 18: 
+    return 'drink coke';
+
+  case old < 21: 
+    return 'drink beer';
+
+  case old >= 21: 
+    return 'drink whisky';
+
+}
+
+
+}peopleWithAgeDrink(30)
+```
+
 ## Removing Elements
 https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
 
