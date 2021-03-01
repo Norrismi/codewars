@@ -26,6 +26,20 @@ return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.sli
 }
 ```
 
+
+### Numbers in strings
+https://www.codewars.com/kata/59dd2c38f703c4ae5e000014/train/javascript/5deee8fad772160011c598ec
+
+In this Kata, you will be given a string that has lowercase letters and numbers. Your task is to compare the number groupings and return the largest number. Numbers will not have leading zeros.
+
+```JS
+function solve(s){
+
+return parseInt(s.replace(/\D/g,' ').split(' ').sort((a,b)=> a-b).pop(), 10)
+
+}
+```
+
 ### Growth of a Population
 https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript/5ab178b97c7a53638a000071
 
