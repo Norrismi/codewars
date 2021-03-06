@@ -64,6 +64,17 @@ switch(true){
 }peopleWithAgeDrink(30)
 ```
 
+## N-th Power
+https://www.codewars.com/kata/57d814e4950d8489720008db/train/javascript/6042eb3c6e8341001d23c186
+
+You are given an array with positive numbers and a non-negative number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
+
+```JS
+function index(arr, n){
+return (arr.length <= n) ? -1 : Math.pow(arr[n], n) 
+}
+```
+
 ## Removing Elements
 https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
 
