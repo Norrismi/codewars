@@ -61,6 +61,22 @@ function nbYear(orgPop, per, inc, endPop) {
 }
 ```
 
+### Count the divisors of a number
+https://www.codewars.com/kata/542c0f198e077084c0000c2e/train/javascript/60469185d4e6fd001093b264
+
+```JS
+function getDivisorsCnt(n){
+
+   for(var count=0, i=n; i>0; i--){
+     if(n%i == 0){
+       count++
+     }
+   }
+
+   return count
+}
+```
+
 ### Find the stray number
 https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript/5cc4ba70701f0d001122b50e
 
