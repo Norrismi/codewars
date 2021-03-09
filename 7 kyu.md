@@ -26,6 +26,17 @@ return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.sli
 }
 ```
 
+### Maximum Multiple
+https://www.codewars.com/kata/5aba780a6a176b029800041c/train/javascript/60478b965fbb3d001ad9f0aa
+
+```JS
+function maxMultiple(divisor, bound){
+  
+return Math.floor(bound/divisor)*divisor
+
+}
+```
+
 
 ### Numbers in strings
 https://www.codewars.com/kata/59dd2c38f703c4ae5e000014/train/javascript/5deee8fad772160011c598ec
