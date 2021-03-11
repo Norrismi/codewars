@@ -19,6 +19,46 @@ return Math.max(...list);
 }
 ```
 
+## Get Planet Name By ID
+https://www.codewars.com/kata/515e188a311df01cba000003/train/javascript/6049679f45de11001039f7e5
+
+The function is not returning the correct values. Can you figure out why?
+
+```JS
+function getPlanetName(id){
+  var name;
+  switch(id){
+ 
+    case 1:
+      return 'Mercury'
+       
+    case 2:
+      return 'Venus'
+       
+    case 3:
+      return 'Earth'
+       
+    case 4:
+      return 'Mars'
+       
+    case 5:
+      return 'Jupiter'
+       
+    case 6:
+      return 'Saturn'
+       
+    case 7:
+      return 'Uranus'
+       
+    case 8:
+      return 'Neptune'
+      
+  }
+  
+  return name;
+}
+```
+
 ### Is it a palindrome?
 https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript/601322d38c0712002c5ac457
 
