@@ -104,6 +104,20 @@ switch(true){
 }peopleWithAgeDrink(30)
 ```
 
+## Is the string uppercase?
+https://www.codewars.com/kata/56cd44e1aa4ac7879200010b/train/javascript/5fa5ad844a969500327dc354
+
+```JS
+String.prototype.isUpperCase = function() {
+
+return this
+.split('')
+.map(a => (a == a.toUpperCase())? true : false)
+.includes(false) ? false : true
+
+}
+```
+
 ## N-th Power
 https://www.codewars.com/kata/57d814e4950d8489720008db/train/javascript/6042eb3c6e8341001d23c186
 
