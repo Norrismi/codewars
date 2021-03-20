@@ -19,6 +19,19 @@ return Math.max(...list);
 }
 ```
 
+## Merge two sorted arrays into one
+https://www.codewars.com/kata/5899642f6e1b25935d000161/train/javascript/6055528fc53bb40023224e5b
+
+```JS
+function mergeArrays(arr1, arr2) {
+  
+let newArr =  arr1.concat(arr2)
+
+return [...new Set(newArr)].sort((a,b) => a-b)
+
+}
+```
+
 ## Get Planet Name By ID
 https://www.codewars.com/kata/515e188a311df01cba000003/train/javascript/6049679f45de11001039f7e5
 
