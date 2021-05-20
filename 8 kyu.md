@@ -72,6 +72,28 @@ function getPlanetName(id){
 }
 ```
 
+
+### Well of Ideas 
+https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript/5dfb64151f177f00192c3a7d
+
+In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
+
+```JS 
+function well(test){
+
+let num =  test.filter(a => a == 'good').length
+
+if(num > 0 && num <= 2){
+  return 'Publish!'
+}else if(num > 2){
+  return 'I smell a series!'
+}else{
+  return 'Fail!'
+}
+  
+}
+```
+
 ### Is it a palindrome?
 https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript/601322d38c0712002c5ac457
 
