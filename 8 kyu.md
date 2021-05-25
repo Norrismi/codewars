@@ -94,6 +94,28 @@ if(num > 0 && num <= 2){
 }
 ```
 
+
+### Generate range of integers
+https://www.codewars.com/kata/55eca815d0d20962e1000106/train/javascript/60ad04b931f2850049046153
+
+Implement a function named generateRange(min, max, step), which takes three arguments and generates a range of integers from min to max, with the step. The first integer is the minimum value, the second is the maximum of the range and the third is the step. (min < max)
+
+```JS
+function generateRange(min, max, step){
+
+  let arr = []
+
+  for(i = min; i <= max; i += step){
+    arr.push(i)
+  }
+
+   return arr
+
+}
+
+generateRange(1, 10, 3)
+```
+
 ### Is it a palindrome?
 https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript/601322d38c0712002c5ac457
 
