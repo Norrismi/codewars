@@ -72,6 +72,36 @@ function nbYear(orgPop, per, inc, endPop) {
 }
 ```
 
+
+### Fizz Buzz
+https://www.codewars.com/kata/5300901726d12b80e8000498/train/javascript
+
+If the value is a multiple of 3: use the value "Fizz" instead
+If the value is a multiple of 5: use the value "Buzz" instead
+If the value is a multiple of 3 & 5: use the value "FizzBuzz" instead
+
+```JS
+function fizzbuzz(n){
+
+let arr = []
+
+  for( var i=1; i<=n; i++){
+    if(i % 15 == 0){
+      arr.push('FizzBuzz')
+    }else if(i % 3 == 0){
+      arr.push('Fizz')
+    }else if(i % 5 == 0){
+      arr.push('Buzz')
+    }else{
+      arr.push(i)
+    }
+  }
+
+  return arr
+
+}
+```
+
 ### Count the divisors of a number
 https://www.codewars.com/kata/542c0f198e077084c0000c2e/train/javascript/60469185d4e6fd001093b264
 
