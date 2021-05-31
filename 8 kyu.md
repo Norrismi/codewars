@@ -95,6 +95,28 @@ if(num > 0 && num <= 2){
 ```
 
 
+### Thinkful - Logic Drills: Traffic light
+https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript/60b548c23961d20055d96e69
+
+You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+
+Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.
+
+```JS
+function updateLight(cur) {
+  
+  if(cur == 'green'){
+    return 'yellow'
+  }else if(cur =='yellow'){
+    return 'red'
+  }else if(cur =='red'){
+    return 'green'
+  }
+
+}
+```
+
+
 ### Generate range of integers
 https://www.codewars.com/kata/55eca815d0d20962e1000106/train/javascript/60ad04b931f2850049046153
 
