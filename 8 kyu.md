@@ -130,6 +130,17 @@ function updateLight(cur) {
 }
 ```
 
+### Grasshopper - Terminal game combat function
+https://www.codewars.com/kata/586c1cf4b98de0399300001d/train/javascript
+
+Create a combat function that takes the player's current health and the amount of damage recieved, and returns the player's new health. Health can't be less than 0.
+
+```JS
+function combat(health, damage) {
+   return (health - damage < 0) ? 0 : health - damage
+}
+```
+
 
 ### Generate range of integers
 https://www.codewars.com/kata/55eca815d0d20962e1000106/train/javascript/60ad04b931f2850049046153
