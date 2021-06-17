@@ -26,6 +26,16 @@ return cc.substring(0, cc.length-4).replace(/[0-9,a-z,A-Z]/g, "#").concat(cc.sli
 }
 ```
 
+### max diff - easy
+https://www.codewars.com/kata/588a3c3ef0fbc9c8e1000095/train/javascript/60cbb48b382b9000360c15a8
+
+```JS
+function maxDiff(list){
+  return (list <= 1) ? 0 : Math.max(...list) - Math.min(...list)
+
+}
+```
+
 ### Maximum Multiple
 https://www.codewars.com/kata/5aba780a6a176b029800041c/train/javascript/60478b965fbb3d001ad9f0aa
 
