@@ -127,6 +127,22 @@ return (count>1)? names : name
 list([{name: 'Bart'},{name: 'Lisa'}, {name: 'Doug'}])
 ```
 
+
+## Convert string to camel case
+https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript
+
+Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).
+
+```JS
+function toCamelCase(str){
+
+  let first = str.split(/-|_/g).shift()
+  let action = str.split(/-|_/g).slice(1)
+
+  return first + action.map(a => a.charAt(0).toUpperCase() + a.slice(1)).join('')
+}
+```
+
 ## Create Phone Number
 https://www.codewars.com/users/Norrismi/completed_solutions
 
