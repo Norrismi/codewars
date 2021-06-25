@@ -112,6 +112,27 @@ let arr = []
 }
 ```
 
+
+### Find the divisors!
+https://www.codewars.com/kata/544aed4c4a30184e960010f4/train/javascript
+
+```JS
+function divisors(int) {
+  
+let arr = []
+
+for(i=int-1; i >= 2; i--){
+  arr.push(i)
+}
+
+let solution = arr.filter(a => int % a == 0).sort((a,b) => a-b)
+
+return (solution == false) ? `${int} is prime` : solution
+
+};
+
+```
+
 ### Count the divisors of a number
 https://www.codewars.com/kata/542c0f198e077084c0000c2e/train/javascript/60469185d4e6fd001093b264
 
