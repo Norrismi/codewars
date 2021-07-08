@@ -142,6 +142,19 @@ function combat(health, damage) {
 ```
 
 
+### The Wide-Mouthed frog!
+https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89/train/javascript
+
+Your goal in this kata is to create complete the mouth_size method this method take one argument animal which corresponds to the animal encountered by frog. If this one is an alligator (case insensitive) return small otherwise return wide.
+
+```JS
+function mouthSize(animal) {
+  return (animal.toLowerCase() === 'alligator')? "small" : "wide"
+}
+mouthSize('alligator')
+```
+
+
 ### Generate range of integers
 https://www.codewars.com/kata/55eca815d0d20962e1000106/train/javascript/60ad04b931f2850049046153
 
