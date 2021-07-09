@@ -113,6 +113,23 @@ let arr = []
 ```
 
 
+### Factorial
+https://www.codewars.com/kata/57a049e253ba33ac5e000212/train/javascript
+
+```JS
+function factorial(n){
+  let arr = [];
+
+  for(let i=n; i>0; i--){
+    arr.push(i)
+  }
+
+  return(n == 0)? 1 : arr.reduce((a,b) => a*b)
+}
+factorial(0)
+```
+
+
 ### Find the divisors!
 https://www.codewars.com/kata/544aed4c4a30184e960010f4/train/javascript
 
