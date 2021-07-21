@@ -109,6 +109,31 @@ if(num > 0 && num <= 2){
 ```
 
 
+### Lario and Muigi Pipe Problem
+https://www.codewars.com/kata/56b29582461215098d00000f/train/javascript
+
+Given the a list of numbers, return the list so that the values increment by 1 for each index up to the maximum value.
+```JS
+function pipeFix(num){
+
+let arr = []
+let stop = num.pop()
+
+if(num == false){
+  return [2]
+}else{
+  for (let i=num[0]; i <= stop; i++){
+      arr.push(i)
+    }
+    return arr
+  }
+}
+
+
+pipeFix([1,7])
+```
+
+
 ### Thinkful - Logic Drills: Traffic light
 https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript/60b548c23961d20055d96e69
 
