@@ -112,6 +112,22 @@ let arr = []
 }
 ```
 
+### 
+Summing a number's digits
+https://www.codewars.com/kata/52f3149496de55aded000410/train/javascript
+
+```JS
+function sumDigits(num) {
+
+  if(!num > 0){
+    return 0
+  }else{
+
+  return  num.toString().split('').filter(a => a>0).map(a => parseInt(a)).reduce((a,b)=> a+b)
+  }
+}
+```
+
 
 ### Factorial
 https://www.codewars.com/kata/57a049e253ba33ac5e000212/train/javascript
