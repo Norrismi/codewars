@@ -15,7 +15,7 @@ return arr.filter(a => a !== 0 ).concat(arr.filter(a => a === 0 ))
 
 https://www.codewars.com/kata/simple-pig-latin/train/javascript/5a7a6ccbfd8c06d91100005c
 
-Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched
 
 ```JS
 function pigIt(str){
