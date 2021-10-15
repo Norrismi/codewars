@@ -87,6 +87,32 @@ unusualFive()
 ```
 
 
+### What's the real floor?
+https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
+
+Write a function that given a floor in the american system returns the floor in the european system.
+
+With the 1st floor being replaced by the ground floor and the 13th floor being removed, the numbers move down to take their place. In case of above 13, they move down by two because there are two omitted numbers below them.
+
+Basements (negatives) stay the same as the universal level.
+
+```JS
+function getRealFloor(n) {
+
+  if(n<=0){
+    return n
+  } else if(n<13){
+    return n-1
+  } else if(n>13){
+    return n-2
+  }
+
+}
+
+getRealFloor(1)
+```
+
+
 ### Well of Ideas 
 https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript/5dfb64151f177f00192c3a7d
 
