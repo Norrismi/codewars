@@ -48,6 +48,21 @@ return Math.floor(bound/divisor)*divisor
 ```
 
 
+### Anagram Detection
+https://www.codewars.com/kata/529eef7a9194e0cbc1000255/train/javascript
+
+```JS
+var isAnagram = function(test, original) {
+
+	const testS =  test.split('').sort((a,b)=> a.localeCompare(b)).join('').toLowerCase()
+
+	const originalS = original.split('').sort((a,b)=> a.localeCompare(b)).join('').toLowerCase()
+
+	return (testS == originalS) ? true : false
+};
+```
+
+
 ### Numbers in strings
 https://www.codewars.com/kata/59dd2c38f703c4ae5e000014/train/javascript/5deee8fad772160011c598ec
 
