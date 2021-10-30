@@ -112,6 +112,21 @@ function getRealFloor(n) {
 getRealFloor(1)
 ```
 
+### Sum The Strings
+https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript
+
+Create a function that takes 2 nonnegative integers in form of a string as an input, and outputs the sum (also as a string):
+
+```JS
+function sumStr(a,b) {
+
+return (Number(a) + Number(b)).toString()
+
+}
+sumStr("4","5")
+```
+
+
 
 ### Well of Ideas 
 https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript/5dfb64151f177f00192c3a7d
