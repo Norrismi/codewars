@@ -72,6 +72,18 @@ function getPlanetName(id){
 }
 ```
 
+
+### Grasshopper - Terminal game move function
+https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
+
+In this game, the hero moves from left to right. The player rolls the die and moves the number of spaces indicated by the die two times.
+
+```JS
+function move (pos, roll) {
+  return pos + roll * 2 
+}
+```
+
 ### 5 without numbers !!
 https://www.codewars.com/kata/59441520102eaa25260000bf/train/javascript
 
