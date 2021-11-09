@@ -91,6 +91,31 @@ function reverseWords(str){
 }
 ```
 
+## 
+Multiples of 3 or 5
+https://www.codewars.com/kata/514b92a657cdc65150000006/train/javascript
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+
+```JS
+function solution(num){
+  
+  let arrMul = []
+
+  for(let i=1; i<num; i++){
+ 
+  if(i%3 == 0 || i%5 == 0){
+      arrMul.push(i)
+    }
+  }
+
+return (num < 0 || !arrMul.length) ? 0 : arrMul.reduce((a,b)=> a+b)
+
+}
+```
+
 ## Find The Parity Outlier
 https://www.codewars.com/kata/find-the-parity-outlier/train/javascript/5a850fe1b17101b5ab00008b
 
