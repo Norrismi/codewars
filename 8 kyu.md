@@ -95,6 +95,17 @@ function setAlarm(emp, vac){
 }
 ```
 
+
+### Grasshopper - Check for factor
+https://www.codewars.com/kata/55cbc3586671f6aa070000fb/train/javascript
+
+```JS
+function checkForFactor (base, factor) {
+  return (base % factor === 0) ? true : false
+}
+checkForFactor(653,7)
+```
+
 ### 5 without numbers !!
 https://www.codewars.com/kata/59441520102eaa25260000bf/train/javascript
 
