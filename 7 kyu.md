@@ -77,8 +77,7 @@ return parseInt(s.replace(/\D/g,' ').split(' ').sort((a,b)=> a-b).pop(), 10)
 ```
 
 
-### 
-Sum of all the multiples of 3 or 5
+### Sum of all the multiples of 3 or 5
 https://www.codewars.com/kata/57f36495c0bb25ecf50000e7/train/javascript
 
 Your task is to write function findSum.
