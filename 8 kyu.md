@@ -72,6 +72,17 @@ function getPlanetName(id){
 }
 ```
 
+### Short Long Short
+https://www.codewars.com/kata/50654ddff44f800200000007/train/javascript
+
+Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty ( zero length ).
+
+```JS
+function solution(a, b){
+  return (b.length > a.length) ? `${a}${b}${a}` : `${b}${a}${b}`
+}
+```
+
 
 ### Grasshopper - Terminal game move function
 https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
