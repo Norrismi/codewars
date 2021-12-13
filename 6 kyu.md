@@ -132,6 +132,30 @@ return (even.length > 1)? parseInt(odd) : parseInt(even)
 }
 ```
 
+## Does my number look big in this?
+https://www.codewars.com/kata/5287e858c6b5a9678200083c/train/javascript
+
+A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
+
+```JS
+function narcissistic(value) {
+  
+ 
+  let arr = [];
+  arr.push(value)
+
+  let str =  arr.toString()
+  let length = str.length
+  let numSpl = value.toString().split('')
+
+
+  let narcNum = numSpl.map((a) => Math.pow(a,length)).reduce((a,b) => a+b)
+
+  return (narcNum == value)? true : false 
+
+  }
+```
+
 ## Format a string of names like 'Bart, Lisa & Maggie'.
 https://www.codewars.com/kata/format-a-string-of-names-like-bart-lisa-and-maggie/train/javascript/5aafc2a9ba1bb5e11a0000f7
 
