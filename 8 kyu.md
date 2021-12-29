@@ -19,6 +19,20 @@ return Math.max(...list);
 }
 ```
 
+## Difference of Volumes of Cuboids
+https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/javascript
+
+```JS
+function findDifference(a, b) {
+
+  let getA = a.reduce((a,b)=> a*b)
+  let getB = b.reduce((a,b)=> a*b)
+
+  return Math.abs(getA - getB)
+
+}
+```
+
 ## Merge two sorted arrays into one
 https://www.codewars.com/kata/5899642f6e1b25935d000161/train/javascript/6055528fc53bb40023224e5b
 
