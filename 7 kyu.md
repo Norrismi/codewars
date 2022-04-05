@@ -48,6 +48,25 @@ return Math.floor(bound/divisor)*divisor
 ```
 
 
+### Alternate capitalization
+https://www.codewars.com/kata/59cfc000aeb2844d16000075/train/javascript
+
+```JS
+function capitalize(s){
+
+  let even = s.split('').map((a,i) => i%2 != 0 
+    ? a.toLowerCase(): a.toUpperCase()).join("")
+
+    let odd = s.split('').map((a,i) => i%2 == 0 
+    ? a.toLowerCase(): a.toUpperCase()).join("")
+
+  return [even, odd];
+
+
+};
+```
+
+
 ### Anagram Detection
 https://www.codewars.com/kata/529eef7a9194e0cbc1000255/train/javascript
 
