@@ -46,6 +46,29 @@ return [...new Set(newArr)].sort((a,b) => a-b)
 }
 ```
 
+## How old will I be in 2099?
+https://www.codewars.com/kata/5761a717780f8950ce001473/train/javascript
+
+```JS
+function  calculateAge(birth,year) {
+
+
+if(birth-year === 1){
+      return `You will be born in 1 year.`
+  } else if(birth-year >1){
+      return `You will be born in ${Math.abs(year-birth)} years.`
+  } else if(year-birth === 1){
+      return `You are 1 year old.`
+  } else if(year-birth > 1){
+      return `You are ${year-birth} years old.`
+  } else if(year-birth === 0){
+      return`You were born this very year!`
+  }
+
+}
+
+```
+
 ## Get Planet Name By ID
 https://www.codewars.com/kata/515e188a311df01cba000003/train/javascript/6049679f45de11001039f7e5
 
