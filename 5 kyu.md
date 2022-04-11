@@ -28,6 +28,22 @@ function pigIt(str){
 
 ```
 
+## Extract the domain name from a URL
+https://www.codewars.com/kata/514a024011ea4fb54200004b/train/javascript
+
+```JS
+function domainName(url){
+
+  let noHttp = url.replace(/^https?:\/\//, '');
+  let noCom = noHttp.replace(/^www\./,'').split('.');
+
+  return noCom[0]
+  
+}
+domainName("https://youtube.com")
+```
+
+
 ## Regex Password Validation
 https://www.codewars.com/kata/regex-password-validation/train/javascript/5c2675e5f3e92460b5ab4be9
 You need to write regex that will validate a password to make sure it meets the following criteria:
