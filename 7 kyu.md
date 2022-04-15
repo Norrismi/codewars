@@ -67,6 +67,16 @@ function capitalize(s){
 ```
 
 
+### Summy
+https://www.codewars.com/kata/599c20626bd8795ce900001d/train/javascript
+
+```JS
+function summy(nums){
+  return nums.split(' ').map(a => parseInt(a)).reduce((a,b)=> a+b)
+}
+```
+
+
 ### Anagram Detection
 https://www.codewars.com/kata/529eef7a9194e0cbc1000255/train/javascript
 
