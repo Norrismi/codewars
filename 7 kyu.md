@@ -48,6 +48,27 @@ return Math.floor(bound/divisor)*divisor
 ```
 
 
+### Sum of numerous arguments
+https://www.codewars.com/kata/55c5b03f8c28da9a51000045/train/javascript
+
+```JS
+function findSum(nums){
+
+  let arr = []
+
+  for(i=0; i<arguments.length; i++){
+      arr.push(arguments[i])
+  }
+
+  let negs = arr.some(a => (a<0))
+
+  return (!arr.length? 0 : negs? -1 : arr.reduce((a,b) => a+b, 0) )
+
+
+}
+```
+
+
 ### Alternate capitalization
 https://www.codewars.com/kata/59cfc000aeb2844d16000075/train/javascript
 
