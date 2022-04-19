@@ -68,6 +68,16 @@ function findSum(nums){
 }
 ```
 
+### Remove duplicate words
+https://www.codewars.com/kata/5b39e3772ae7545f650000fc/train/javascript
+
+```JS
+function removeDuplicateWords (s) {
+
+  return [...new Set(s.split(' '))].join(' ')
+
+}
+```
 
 ### Alternate capitalization
 https://www.codewars.com/kata/59cfc000aeb2844d16000075/train/javascript
