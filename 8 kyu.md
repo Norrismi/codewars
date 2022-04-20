@@ -69,6 +69,23 @@ if(birth-year === 1){
 
 ```
 
+
+## Student's Final Grade
+https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/javascript
+
+Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+
+```JS
+function finalGrade (exam, proj) {
+
+  return (exam > 90 || proj > 10) ? 100 
+    : (exam > 75 && proj >= 5) ? 90 
+    : (exam > 50 && proj >= 2) ? 75
+    : 0
+
+}
+```
+
 ## Get Planet Name By ID
 https://www.codewars.com/kata/515e188a311df01cba000003/train/javascript/6049679f45de11001039f7e5
 
