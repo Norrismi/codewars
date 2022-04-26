@@ -146,6 +146,16 @@ function testEven(n) {
 testEven(1)
 ```
 
+
+### String cleaning
+https://www.codewars.com/kata/57e1e61ba396b3727c000251/train/javascript
+
+```JS
+function stringClean(s){
+  return s.replace(/\d+/g, "")
+}
+```
+
 ### Short Long Short
 https://www.codewars.com/kata/50654ddff44f800200000007/train/javascript
 
