@@ -86,6 +86,19 @@ function finalGrade (exam, proj) {
 }
 ```
 
+## Grasshopper - Debug
+https://www.codewars.com/kata/55cb854deb36f11f130000e1/train/javascript
+
+```JS
+function weatherInfo (temp) {
+
+  var cel = (temp - 32) * (5/9)
+  
+  return (cel <= 0)? `${cel} is freezing temperature` : `${cel} is above freezing temperature`
+  
+  }
+```
+
 ## Get Planet Name By ID
 https://www.codewars.com/kata/515e188a311df01cba000003/train/javascript/6049679f45de11001039f7e5
 
