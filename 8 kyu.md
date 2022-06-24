@@ -458,7 +458,7 @@ switch(true){
 }peopleWithAgeDrink(30)
 ```
 
-## Is the string uppercase?
+### Is the string uppercase?
 https://www.codewars.com/kata/56cd44e1aa4ac7879200010b/train/javascript/5fa5ad844a969500327dc354
 
 ```JS
@@ -472,7 +472,7 @@ return this
 }
 ```
 
-## N-th Power
+### N-th Power
 https://www.codewars.com/kata/57d814e4950d8489720008db/train/javascript/6042eb3c6e8341001d23c186
 
 You are given an array with positive numbers and a non-negative number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
@@ -483,7 +483,7 @@ return (arr.length <= n) ? -1 : Math.pow(arr[n], n)
 }
 ```
 
-## Removing Elements
+### Removing Elements
 https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
 
 Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
@@ -495,7 +495,7 @@ return arr.filter((a,i) => i%2 == 0)
 }
 ```
 
-## All Star Code Challenge #18
+### All Star Code Challenge #18
 https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript/5f908924fb73960014526881
 
 This Kata is intended as a small challenge for my students
@@ -514,7 +514,7 @@ function strCount(str, letter){
 
 ```
 
-## Sort and Star
+### Sort and Star
 https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/javascript/60147576e7b8680008133762
 
 You will be given a vector of strings. You must sort it alphabetically (case-sensitive, and based on the ASCII values of the chars) and then return the first value.
@@ -531,7 +531,7 @@ return s.sort().shift().split('').map(a => a +  '***').join('').slice(0,-3)
 }
 ```
 
-## Find something in an Array
+### Find something in an Array
 https://www.codewars.com/kata/find-something-in-an-array/train/javascript/5b58e26c05f04b70ef00003e
 
 Create a find function that takes a string and an array as arguments. If the string is in the array, return true.
@@ -542,7 +542,7 @@ var find = function(string, array) {
 };
 ```
 
-## Is he gonna survive?
+### Is he gonna survive?
 https://www.codewars.com/kata/is-he-gonna-survive/train/javascript/5dfb605e0d5bc90028975f0b
 
 A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
@@ -555,7 +555,7 @@ return (bullets >= dragons*2)? true : false
 }
 ```
 
-## DNA to RNA Conversion
+### DNA to RNA Conversion
 https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript
 
 Create a function which translates a given DNA string into RNA.
@@ -568,7 +568,7 @@ function DNAtoRNA(dna) {
 ```
 
 
-## Twice as old
+### Twice as old
 https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
 
 Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
@@ -581,7 +581,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 ```
 
 
-## Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
+### Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
 https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/javascript/5dfb62547a364400145f0c89
 
 ```JS
@@ -646,7 +646,7 @@ const quarterOf = (month) => {
 quarterOf(1)
 ```
 
-## I love you, a little , a lot, passionately ... not at all
+### I love you, a little , a lot, passionately ... not at all
 https://www.codewars.com/kata/57f24e6a18e9fad8eb000296/train/javascript/5c25849166559804690002ba
 
 When the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.
@@ -698,7 +698,7 @@ switch(true){
 
 ```
 
-## Count by X
+### Count by X
 https://www.codewars.com/kata/5513795bd3fafb56c200049e/train/javascript
 
 Create a function with two arguments that will return an array of the first (n) multiples of (x).
@@ -721,7 +721,7 @@ return arr
 }
 ```
 
-## Can we divide it?
+### Can we divide it?
 https://www.codewars.com/kata/5a2b703dc5e2845c0900005a/train/javascript
 
 Your task is to create functionisDivideBy (or is_divide_by) to check if an integer number is divisible by each out of two arguments.
@@ -733,7 +733,7 @@ function isDivideBy(num, a, b) {
 ```
 
 
-##Fake Binary
+### Fake Binary
 https://www.codewars.com/kata/fake-binary/train/javascript/5d77e95d760cfd001e1c52a3
 
 Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
@@ -744,7 +744,7 @@ return num.split('').map(a => (a>=5) ?'1' : '0').join('')
 }
 ```
 
-## altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+### altERnaTIng cAsE <=> ALTerNAtiNG CaSe
 https://www.codewars.com/kata/56efc695740d30f963000557/train/javascript/5deee3a0df8a1200163a9d65
 
 Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase. For example:
@@ -756,7 +756,7 @@ String.prototype.toAlternatingCase = function () {
 ```
 
 
-## Find numbers which are divisible by given number
+### Find numbers which are divisible by given number
 https://www.codewars.com/kata/55edaba99da3a9c84000003b/train/javascript/5f7c8ce6adfe0d000f67e7f1
 
 Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of numbers and the second is the divisor.
@@ -767,7 +767,7 @@ return numbers.map(a => (a == 0)? a :(a%divisor == 0 )? a: null ).filter(a => a 
 }
 ```
 
-## A Needle in the Haystack
+### A Needle in the Haystack
 
 https://www.codewars.com/kata/a-needle-in-the-haystack/train/javascript/5ace59ee23c8186cae0001c6
 
@@ -786,7 +786,7 @@ function findNeedle(haystack) {
 }
 ```
 
-## Transportation on vacation
+### Transportation on vacation
 https://www.codewars.com/kata/transportation-on-vacation/train/javascript/5c158d137f06271801000016
 
 After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
@@ -806,7 +806,7 @@ return (total >=280)? total-50:
 }
 ```
 
-## Hello, Name or World!
+### Hello, Name or World!
 https://www.codewars.com/kata/57e3f79c9cb119374600046b/train/javascript
 
 Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! if name is not given (or passed as an empty String).
@@ -835,7 +835,7 @@ return !name.length ? 'Hello, World!' : `Hello, ${newName}!`
 hello()
 ```
 
-## Pre-FizzBuzz Workout #1
+### Pre-FizzBuzz Workout #1
 https://www.codewars.com/kata/569e09850a8e371ab200000b/train/javascript/5f864e21c00bae002e4b3f4a
 
 Your inputs: a positive integer, n, greater than or equal to one. n is provided, you have NO CONTROL over its value.
@@ -853,7 +853,7 @@ return arr
 }
 ```
 
-## Grader
+### Grader
 https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/javascript/5f25b9a223c9aa002e1bdc4f
 
 Create a function that takes a number as an argument and returns a grade based on that number.
@@ -890,7 +890,7 @@ function grader(score) {
 }
 ```
 
-## NBA full 48 minutes average
+### NBA full 48 minutes average
 https://www.codewars.com/kata/587c2d08bb65b5e8040004fd/train/javascript
 
 An NBA game runs 48 minutes (Four 12 minute quarters). Players do not typically play the full game, subbing in and out as necessary. Your job is to extrapolate a player's points per game if they played the full 48 minutes.
@@ -909,7 +909,7 @@ return (isNaN(pts)) ? 0: pts
 ```
 
 
-## Count of positives / sum of negatives
+### Count of positives / sum of negatives
 https://www.codewars.com/kata/576bb71bbbcf0951d5000044/train/javascript/5ab4598f6a176b73dc0000b4
 
 Given an array of integers.
@@ -936,7 +936,7 @@ function countPositivesSumNegatives(arr) {
 
 
 
-## L1: Bartender, drinks!
+### L1: Bartender, drinks!
 https://www.codewars.com/kata/568dc014440f03b13900001d/train/javascript/5f3e927d28bb8e001046fe14
 
 Write a function getDrinkByProfession/get_drink_by_profession() that receives as input parameter a string, and produces outputs according to the following table:
@@ -964,7 +964,7 @@ switch(param.toLowerCase()){
 
 ```
 
-## Abbreviate a Two Word Name
+### Abbreviate a Two Word Name
 https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript/5c259198dd392c2c7800014f
 
 Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
@@ -988,7 +988,7 @@ function abbrevName(name){
 
 ```
 
-## Area or Perimeter
+### Area or Perimeter
 https://www.codewars.com/kata/5ab6538b379d20ad880000ab/train/javascript
 You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
 If it is a square, return its area. If it is a rectangle, return its perimeter.
@@ -1000,7 +1000,7 @@ const areaOrPerimeter = function(l , w) {
 areaOrPerimeter(4,6)
 ```
 
-## Third Angle of a Triangle
+### Third Angle of a Triangle
 https://www.codewars.com/kata/5a023c426975981341000014/train/javascript
 You are given two angles (in degrees) of a triangle.
 
@@ -1010,7 +1010,7 @@ function otherAngle(a, b) {
 }
 ```
 
-## Remove Duplicates From List
+### Remove Duplicates From List
 https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript/5b58e4456dc79e9f7000003c
 Define a function that removes duplicates from an array of numbers and returns it as a result.
 
@@ -1025,7 +1025,7 @@ function distinct(arr) {
 distinct([1,3,1,3,4,5,6])
 ```
 
-## Grasshopper - If/else syntax debug
+### Grasshopper - If/else syntax debug
 https://www.codewars.com/kata/grasshopper-if-slash-else-syntax-debug/train/javascript/5cd62b0e385bfb002846181b
 If/else syntax debug
 While making a game, your partner, Greg, decided to create a function to check if the user is still alive called checkAlive/CheckAlive. Unfortunately, Greg made some errors while creating the function.
@@ -1042,7 +1042,7 @@ checkAlive(5)
 
 ```
 
-## Bin to Decimal
+### Bin to Decimal
 https://www.codewars.com/kata/bin-to-decimal/train/javascript/5c38b74a23e1fc2b6e219f8c
 
 Complete the function which converts a binary number (given as a string) to a decimal number.
@@ -1052,7 +1052,7 @@ function binToDec(bin){
 }
 ```
 
-## Filter out the geese
+### Filter out the geese
 
 https://www.codewars.com/kata/filter-out-the-geese/train/javascript/5c3f452ece5d8242a03fe16a
 
@@ -1067,7 +1067,7 @@ function gooseFilter (birds) {
 }
 ```
 
-## Squash the bugs
+### Squash the bugs
 https://www.codewars.com/kata/squash-the-bugs/train/javascript/5d1a6810c459270017c17b0d
 Simple challenge - eliminate all bugs from the supplied code so that the code runs and outputs the expected value. Output should be the length of the longest word, as a number.
 
@@ -1082,7 +1082,7 @@ function findLongest(str){
 findLongest("Lets all go on holiday")
 ```
 
-## get character from ASCII Value
+### get character from ASCII Value
 https://www.codewars.com/kata/get-character-from-ascii-value/train/javascript/5cc8e9c20cbae00013a01a0a
 Get character from ASCII Value
 Write a function getChar/GetChar/get_char which takes a number and returns the corresponding ASCII char for that value.
@@ -1095,7 +1095,7 @@ function getChar(c){
 getChar(65)
 ```
 
-## Are You Playing Banjo?
+### Are You Playing Banjo?
 https://www.codewars.com/kata/are-you-playing-banjo/train/javascript/5c282436662e2f00091333a7
 
 Create a function which answers the question "Are you playing banjo?".
@@ -1117,7 +1117,7 @@ function areYouPlayingBanjo(name) {
 }
 ```
 
-## Correct the mistakes of the character recognition software
+### Correct the mistakes of the character recognition software
 https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software/train/javascript/5c338013fdcefd647d71c803
 
 Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
@@ -1136,7 +1136,7 @@ return str.map(a => (a === '5')
 
 ```
 
-## Beginner - Lost Without a Map
+### Beginner - Lost Without a Map
 https://www.codewars.com/kata/beginner-lost-without-a-map/train/javascript/5d13fb7ec4592700219374a2
 Given an array of integers, return a new array with each value doubled.
 
@@ -1146,7 +1146,7 @@ function maps(x){
 }
 ```
 
-## Capitalization and Mutability
+### Capitalization and Mutability
 https://www.codewars.com/kata/capitalization-and-mutability/train/javascript/5d1a3ffd0e313ea65c52b6d0
 Your coworker was supposed to write a simple helper function to capitalize a string (that contains a single word) before they went on vacation.
 
@@ -1167,7 +1167,7 @@ function capitalizeWord(word) {
 capitalizeWord('glasses')
 ```
 
-## Will there be enough space?
+### Will there be enough space?
 https://www.codewars.com/kata/5875b200d520904a04000003/train/javascript/5cd81813accbd30018210051
 
 Bob is working as a bus driver. However, he has become extremely popular amongst the city's residents. With so many passengers wanting to get aboard his bus, he sometimes has to face the problem of not enough space left on the bus! He wants you to write a simple program telling him if he will be able to fit all the passengers.
@@ -1181,7 +1181,7 @@ return (on + wait < cap) ? 0: dif
 enough(10,5,5)
 ```
 
-## Return Negative
+### Return Negative
 https://www.codewars.com/kata/return-negative/train/javascript/5abebd2830488fa54d00011e
 
 In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
@@ -1199,7 +1199,7 @@ function makeNegative(num) {
 }
 ```
 
-##Sum Mixed Array
+### Sum Mixed Array
 https://www.codewars.com/kata/sum-mixed-array/train/javascript/5d1ba54b52d8e1001138251c
 
 Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
@@ -1212,7 +1212,7 @@ return arr.map(a => parseInt(a)).reduce((a,b) => a+b)
 }
 ```
 
-## Will there be enough space?
+### Will there be enough space?
 
 https://www.codewars.com/kata/will-there-be-enough-space/train/javascript/5cd62c9ef446b00012c1c449
 
@@ -1233,7 +1233,7 @@ enough(10,5,5)
 ```
 
 
-## Jenny's secret message
+### Jenny's secret message
 
 https://www.codewars.com/kata/jennys-secret-message/train/javascript/5a9eb286fd8c06475f000113
 
@@ -1250,7 +1250,7 @@ function greet(name){
 }
 ```
 
-## Simple multiplication
+### Simple multiplication
 https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
 
 This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
@@ -1261,7 +1261,7 @@ function simpleMultiplication(num) {
 }
 ```
 
-## If you can't sleep, just count sheeps!!
+### If you can't sleep, just count sheeps!!
 https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheeps/train/javascript/5b0e9a2d41e66a87390000d7
 
 Given a number, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep..."
@@ -1278,7 +1278,7 @@ return text
 ```
 
 
-## Keep up the hoop
+### Keep up the hoop
 
 https://www.codewars.com/kata/keep-up-the-hoop/train/javascript/5a9d6a66ba1bb55b5800019e
 
@@ -1304,7 +1304,7 @@ function hoopCount (n) {
 
 
 
-## String repeat
+### String repeat
 
 https://www.codewars.com/kata/string-repeat/train/javascript/5a9d664a373c2ea4bb00031a
 
@@ -1318,7 +1318,7 @@ function repeatStr (n, str) {
 ```
 
 
-## Remove String Spaces
+### Remove String Spaces
 
 https://www.codewars.com/kata/remove-string-spaces/train/javascript/5a850ff40025e96850000091
 
@@ -1331,7 +1331,7 @@ function noSpace(x){
 
 ```
 
-## Calculate BMI
+### Calculate BMI
 https://www.codewars.com/kata/calculate-bmi/train/javascript/5b606e668f47bdcbe3000035
 Write function bmi that calculates body mass index (bmi = weight / height ^ 2).
 if bmi <= 18.5 return "Underweight"
@@ -1360,7 +1360,7 @@ function bmi(w,h) {
 ```
 
 
-## Remove First and Last Character
+### Remove First and Last Character
 
 https://www.codewars.com/kata/remove-first-and-last-character/train/javascript/5a7643314a6b34a32f000021
 
@@ -1379,7 +1379,7 @@ let arr = str.split('')
 ```
 
 
-## Even or Odd
+### Even or Odd
 https://www.codewars.com/kata/even-or-odd/train/javascript/5a7394ec0025e90a54000063
 
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
@@ -1395,9 +1395,7 @@ function even_or_odd(integer) {
 
 ```
 
-## Multiply
-
-
+### Multiply
 
 The code does not execute properly. Try to figure out why.
 
@@ -1408,7 +1406,7 @@ function multiply(a, b){
 
 ```
 
-## How good are you really?
+### How good are you really?
 https://www.codewars.com/users/Norrismi/completed_solutions
 
 There was a test in your class and you passed it. Congratulations!
