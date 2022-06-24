@@ -32,6 +32,17 @@ function findDifference(a, b) {
 
 }
 ```
+##Age Range Compatibility Equation
+https://www.codewars.com/kata/5803956ddb07c5c74200144e/train/javascript
+```JS
+function datingRange(age){
+  let over14 = `${Math.floor((age/2)+7) }-${Math.floor((age-7)*2) }`
+  let at14under = `${Math.floor(Math.abs( (age*.10)-age))}-${Math.floor((age*.10)+age)}`
+  
+  return(age<=14)? at14under : over14
+
+}
+```
 
 ## Merge two sorted arrays into one
 https://www.codewars.com/kata/5899642f6e1b25935d000161/train/javascript/6055528fc53bb40023224e5b
