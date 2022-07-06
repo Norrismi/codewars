@@ -19,6 +19,18 @@ return Math.max(...list);
 }
 ```
 
+## FIXME: Replace all dots
+https://www.codewars.com/kata/596c6eb85b0f515834000049/train/javascript
+
+```JS
+var replaceDots = function(str) {
+  let cut = str.split('');
+  return cut.map(a => a.replace('.','-')).join('')
+
+}
+replaceDots("one.two.three")
+```
+
 ## Difference of Volumes of Cuboids
 https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/javascript
 
