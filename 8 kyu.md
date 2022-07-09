@@ -19,6 +19,21 @@ return Math.max(...list);
 }
 ```
 
+## What is between?
+https://www.codewars.com/kata/55ecd718f46fba02e5000029/train/javascript
+
+Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+```JS
+function between(a, b) {
+  let arr = []
+  for(let i=a; i<=b; i++){
+    arr.push(i)
+  }
+  return arr
+}
+```
+
 ## FIXME: Replace all dots
 https://www.codewars.com/kata/596c6eb85b0f515834000049/train/javascript
 
