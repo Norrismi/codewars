@@ -207,6 +207,30 @@ function stringClean(s){
 }
 ```
 
+### Are they opposite?
+https://www.codewars.com/kata/574b1916a3ebd6e4fa0012e7/train/javascript
+
+Give you two strings: s1 and s2. If they are opposite, return true; otherwise, return false. Note: The result should be a boolean value, instead of a string.
+
+```JS
+function isOpposite(s1,s2){
+
+if(!s1.length || s1.length !== s2.length){
+  return false
+}else{
+  
+  let lo = s1.split('').map(a => a == a.toLowerCase())
+  let up = s2.split('').map(a => a == a.toUpperCase())
+
+  return lo.every((a,i)=> a === up[i])
+
+
+}
+  
+
+}
+```
+
 ### Short Long Short
 https://www.codewars.com/kata/50654ddff44f800200000007/train/javascript
 
