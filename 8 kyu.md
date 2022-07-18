@@ -71,6 +71,23 @@ function datingRange(age){
 }
 ```
 
+
+### A wolf in sheep's clothing
+https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript
+```JS
+function warnTheSheep(queue) {
+
+  let get = queue.indexOf("wolf") 
+  let l = queue.length
+  let ans = (l-get)-1
+  
+  
+ return (queue.pop() === "wolf") ?"Pls go away and stop eating my sheep" 
+  :`Oi! Sheep number ${ans}! You are about to be eaten by a wolf!`
+  
+}
+```
+
 ## Merge two sorted arrays into one
 https://www.codewars.com/kata/5899642f6e1b25935d000161/train/javascript/6055528fc53bb40023224e5b
 
