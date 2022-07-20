@@ -76,7 +76,7 @@ function findDifference(a, b) {
 
 }
 ```
-##Age Range Compatibility Equation
+## Age Range Compatibility Equation
 https://www.codewars.com/kata/5803956ddb07c5c74200144e/train/javascript
 ```JS
 function datingRange(age){
@@ -89,7 +89,7 @@ function datingRange(age){
 ```
 
 
-### A wolf in sheep's clothing
+## A wolf in sheep's clothing
 https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript
 ```JS
 function warnTheSheep(queue) {
@@ -211,7 +211,7 @@ function getPlanetName(id){
 }
 ```
 
-### Is it even
+## Is it even
 https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/javascript
 
 In this Kata we are passing a number (n) into a function.
@@ -232,7 +232,7 @@ testEven(1)
 ```
 
 
-### String cleaning
+## String cleaning
 https://www.codewars.com/kata/57e1e61ba396b3727c000251/train/javascript
 
 ```JS
@@ -241,7 +241,7 @@ function stringClean(s){
 }
 ```
 
-### Are they opposite?
+## Are they opposite?
 https://www.codewars.com/kata/574b1916a3ebd6e4fa0012e7/train/javascript
 
 Give you two strings: s1 and s2. If they are opposite, return true; otherwise, return false. Note: The result should be a boolean value, instead of a string.
@@ -265,7 +265,7 @@ if(!s1.length || s1.length !== s2.length){
 }
 ```
 
-### Short Long Short
+## Short Long Short
 https://www.codewars.com/kata/50654ddff44f800200000007/train/javascript
 
 Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty ( zero length ).
@@ -277,7 +277,7 @@ function solution(a, b){
 ```
 
 
-### Grasshopper - Terminal game move function
+## Grasshopper - Terminal game move function
 https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
 
 In this game, the hero moves from left to right. The player rolls the die and moves the number of spaces indicated by the die two times.
@@ -288,7 +288,7 @@ function move (pos, roll) {
 }
 ```
 
-### L1: Set Alarm
+## L1: Set Alarm
 https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript
 
 Write a function named setAlarm which receives two parameters. The first parameter, employed, is true whenever you are employed and the second parameter, vacation is true whenever you are on vacation.
@@ -300,7 +300,7 @@ function setAlarm(emp, vac){
 ```
 
 
-### Grasshopper - Check for factor
+## Grasshopper - Check for factor
 https://www.codewars.com/kata/55cbc3586671f6aa070000fb/train/javascript
 
 ```JS
@@ -310,7 +310,7 @@ function checkForFactor (base, factor) {
 checkForFactor(653,7)
 ```
 
-### 5 without numbers !!
+## 5 without numbers !!
 https://www.codewars.com/kata/59441520102eaa25260000bf/train/javascript
 
 Write a function that always returns 5
@@ -325,7 +325,7 @@ unusualFive()
 ```
 
 
-### What's the real floor?
+## What's the real floor?
 https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
 
 Write a function that given a floor in the american system returns the floor in the european system.
@@ -350,7 +350,7 @@ function getRealFloor(n) {
 getRealFloor(1)
 ```
 
-### Sum The Strings
+## Sum The Strings
 https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript
 
 Create a function that takes 2 nonnegative integers in form of a string as an input, and outputs the sum (also as a string):
@@ -365,7 +365,7 @@ sumStr("4","5")
 ```
 
 
-### Powers of 2
+## Powers of 2
 https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript
 
 Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n (inclusive).
@@ -384,7 +384,7 @@ function powersOfTwo(n){
 
 
 
-### Well of Ideas 
+## Well of Ideas 
 https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript/5dfb64151f177f00192c3a7d
 
 In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
@@ -406,7 +406,7 @@ if(num > 0 && num <= 2){
 ```
 
 
-### Lario and Muigi Pipe Problem
+## Lario and Muigi Pipe Problem
 https://www.codewars.com/kata/56b29582461215098d00000f/train/javascript
 
 Given the a list of numbers, return the list so that the values increment by 1 for each index up to the maximum value.
@@ -431,7 +431,7 @@ pipeFix([1,7])
 ```
 
 
-### Thinkful - Logic Drills: Traffic light
+## Thinkful - Logic Drills: Traffic light
 https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript/60b548c23961d20055d96e69
 
 You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
@@ -452,7 +452,7 @@ function updateLight(cur) {
 }
 ```
 
-### Grasshopper - Terminal game combat function
+## Grasshopper - Terminal game combat function
 https://www.codewars.com/kata/586c1cf4b98de0399300001d/train/javascript
 
 Create a combat function that takes the player's current health and the amount of damage recieved, and returns the player's new health. Health can't be less than 0.
