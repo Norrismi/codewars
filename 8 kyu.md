@@ -46,6 +46,23 @@ var replaceDots = function(str) {
 replaceDots("one.two.three")
 ```
 
+## Find Multiples of a Number
+https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/javascript
+
+```JS
+function findMultiples(int, limit) {
+
+  let arr = [];
+  
+    for (let i=int; i<=limit; i+=int){
+      arr.push(i)
+    }
+
+  return arr
+  
+}
+```
+
 ## Difference of Volumes of Cuboids
 https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/javascript
 
