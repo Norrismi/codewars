@@ -761,6 +761,15 @@ function howMuchILoveYou(n) {
 }
 ```
 
+### Do you speak "English"?
+https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058/train/javascript
+
+```JS
+function spEng(sen){
+  return  sen.toLowerCase().includes('english')
+}
+```
+
 ### Grasshopper - Grade book
 https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript/5fa5bbd7662218001932dc7b
 
