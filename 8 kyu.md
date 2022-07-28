@@ -141,6 +141,25 @@ if(birth-year === 1){
 
 ```
 
+## Return the day
+https://www.codewars.com/kata/59dd3ccdded72fc78b000b25/train/javascript
+
+
+```JS
+function whatday(num) { 
+  switch(num) {
+    case 1: return "Sunday";
+    case 2: return "Monday";
+    case 3: return "Tuesday";
+    case 4: return "Wednesday";
+    case 5: return "Thursday";
+    case 6: return "Friday";
+    case 7: return "Saturday";
+    default: return 'Wrong, please enter a number between 1 and 7';
+  }
+}
+```
+
 
 ## Student's Final Grade
 https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/javascript
