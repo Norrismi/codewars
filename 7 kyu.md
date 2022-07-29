@@ -107,6 +107,17 @@ function summy(nums){
 }
 ```
 
+### Debug Sum of Digits of a Number
+https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
+
+```JS
+function getSumOfDigits(int) {
+
+  return int.toString().split('').map(a => parseInt(a,10)).reduce((a,b) => a+b)
+
+}
+```
+
 
 ### Anagram Detection
 https://www.codewars.com/kata/529eef7a9194e0cbc1000255/train/javascript
