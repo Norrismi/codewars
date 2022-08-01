@@ -97,6 +97,15 @@ function capitalize(s){
 };
 ```
 
+### Number of Decimal Digits
+https://www.codewars.com/kata/58fa273ca6d84c158e000052/train/javascript
+
+```JS
+function digits(n) {
+  return n.toString().split('').length
+}
+```
+
 
 ### Summy
 https://www.codewars.com/kata/599c20626bd8795ce900001d/train/javascript
