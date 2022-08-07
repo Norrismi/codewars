@@ -97,6 +97,15 @@ function capitalize(s){
 };
 ```
 
+### Smallest value of an array
+https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+```JS
+function min(arr, toReturn) {
+	return (toReturn === 'value')? Math.min(...arr) : arr.indexOf(Math.min(...arr))
+
+}
+```
+
 ### Number of Decimal Digits
 https://www.codewars.com/kata/58fa273ca6d84c158e000052/train/javascript
 
