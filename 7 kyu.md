@@ -188,6 +188,15 @@ for(i=n; i>0; i--){
 }
 ```
 
+### Move 10
+https://www.codewars.com/kata/57cf50a7eca2603de0000090/train/javascript
+
+```JS
+function moveTen(s){
+ return s.split('').map((a) => a.charCodeAt()).map((a) => (a+10<= 122)? a+10 : a+9-25).map(a => String.fromCharCode(a)).join('')
+}
+```
+
 ### Growth of a Population
 https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript/5ab178b97c7a53638a000071
 
