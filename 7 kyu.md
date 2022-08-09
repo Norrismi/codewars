@@ -115,6 +115,12 @@ function digits(n) {
 }
 ```
 
+### 99 Problems, #1: last in list
+https://www.codewars.com/kata/57d86d3d3c3f961278000005/train/javascript
+
+```JS
+const last = xs =>  (xs.length)? xs.pop(): null
+```
 
 ### Summy
 https://www.codewars.com/kata/599c20626bd8795ce900001d/train/javascript
