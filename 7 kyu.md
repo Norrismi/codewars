@@ -131,6 +131,25 @@ function summy(nums){
 }
 ```
 
+
+### Reverse list
+https://www.codewars.com/kata/57a04da9e298a7ee43000111/train/javascript
+
+```JS
+function reverseList(arr) {
+  
+  
+if(!arr.length){
+  return []
+}else{
+  
+  let get =  arr.toString().split(',').reverse().join().split(',')
+  return get.map(a => parseInt(a))
+  }
+  
+}
+```
+
 ### Debug Sum of Digits of a Number
 https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 
