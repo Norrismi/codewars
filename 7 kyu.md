@@ -106,6 +106,25 @@ function min(arr, toReturn) {
 }
 ```
 
+### Multiply Word in String
+
+```JS
+function modifyMultiply (str,loc,num) {
+  
+let arr = [];
+let get = str.split(' ')
+let word = get[loc]
+let count = 0;
+
+  while(count<num){
+    arr.push(word)
+    count++
+  }
+
+return arr.join('-')  
+} 
+```
+
 ### Number of Decimal Digits
 https://www.codewars.com/kata/58fa273ca6d84c158e000052/train/javascript
 
