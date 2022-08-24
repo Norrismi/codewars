@@ -34,6 +34,15 @@ function between(a, b) {
 }
 ```
 
+## BASIC: Making Six Toast.
+https://www.codewars.com/kata/5834fec22fb0ba7d080000e8/train/javascript
+
+```JS
+function sixToast(num) {
+  return (num >= 6)? num-6: num;
+}
+```
+
 ## FIXME: Replace all dots
 https://www.codewars.com/kata/596c6eb85b0f515834000049/train/javascript
 
