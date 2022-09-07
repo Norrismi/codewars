@@ -79,6 +79,21 @@ function removeDuplicateWords (s) {
 }
 ```
 
+### Remove anchor from URL
+https://www.codewars.com/kata/51f2b4448cadf20ed0000386/train/javascript
+
+```JS
+function removeUrlAnchor(url){
+  
+  let first = url.split('').includes('#')
+  let num = url.split('').indexOf('#')
+  let sen = url.split('').slice(0,num).join('')
+  
+  return (!first) ? url : sen
+  
+}
+```
+
 ### Alternate capitalization
 https://www.codewars.com/kata/59cfc000aeb2844d16000075/train/javascript
 
