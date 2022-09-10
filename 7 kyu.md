@@ -121,6 +121,16 @@ function min(arr, toReturn) {
 }
 ```
 
+### Switcheroo
+https://www.codewars.com/kata/57f759bb664021a30300007d/train/javascript
+```JS
+function switcheroo(x){
+
+  return x.split('').map(a => (a == 'a')? a.replace('a','b'):a.replace('b','a')).join('')
+  
+}
+```
+
 ### Multiply Word in String
 
 ```JS
