@@ -94,6 +94,26 @@ function removeUrlAnchor(url){
 }
 ```
 
+### Stanton measure
+https://www.codewars.com/kata/59a1cdde9f922b83ee00003b/train/javascript
+
+```JS
+function stantonMeasure(arr){
+  let firstArr = [];
+  let secArr = []
+
+  
+  arr.map(a => (a == 1)? firstArr.push(a): null)
+
+  let sec = firstArr.length
+  
+  arr.map(a => (a== sec)? secArr.push(a): null)
+  
+  return secArr.length
+  
+}
+```
+
 ### Alternate capitalization
 https://www.codewars.com/kata/59cfc000aeb2844d16000075/train/javascript
 
