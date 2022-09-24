@@ -79,6 +79,28 @@ function removeDuplicateWords (s) {
 }
 ```
 
+### Find the Missing Number
+https://www.codewars.com/kata/57f5e7bd60d0a0cfd900032d/train/javascript
+
+```JS
+function missingNo(nums) {
+
+  let order = nums.sort((a,b)=> a-b)
+
+  let arr = []
+
+  let get = order.map((a,i)=> (a == i+1)? arr.push(a) :undefined)
+  
+  return arr[0]-1
+  
+  if(order.length < 101){
+    return 100
+  }else{
+    return arr[0]-1
+  }
+
+```
+
 ### Remove anchor from URL
 https://www.codewars.com/kata/51f2b4448cadf20ed0000386/train/javascript
 
