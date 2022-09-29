@@ -55,6 +55,24 @@ var replaceDots = function(str) {
 replaceDots("one.two.three")
 ```
 
+## Filling an array (part 1)
+https://www.codewars.com/kata/571d42206414b103dc0006a1/train/javascript
+
+```JS
+const arr = N => {
+
+  let i = -1;
+  let arr = [];
+
+  while(i<N-1){
+    i++
+    arr.push(i)
+  }
+
+ return arr
+}
+```
+
 ## Find Multiples of a Number
 https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/javascript
 
