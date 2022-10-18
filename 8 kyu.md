@@ -90,6 +90,15 @@ function findMultiples(int, limit) {
 }
 ```
 
+## Type of Sum
+https://www.codewars.com/kata/5a2e9ae2b6cfd7692a0000ba/train/javascript
+
+```JS
+function typeOfSum(a, b) {
+  return (typeof (a+b))
+}
+```
+
 ## Difference of Volumes of Cuboids
 https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/javascript
 
