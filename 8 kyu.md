@@ -43,6 +43,19 @@ function sixToast(num) {
 }
 ```
 
+## shorter concat [reverse longer]
+https://www.codewars.com/kata/54557d61126a00423b000a45/train/javascript
+
+```JS
+function shorter_reverse_longer(a, b) {
+
+  return (a.length >= b.length) ?
+    `${b}${a.split('').reverse().join('')}${b}`
+    :
+    `${a}${b.split('').reverse().join('')}${a}`
+}
+```
+
 ## FIXME: Replace all dots
 https://www.codewars.com/kata/596c6eb85b0f515834000049/train/javascript
 
