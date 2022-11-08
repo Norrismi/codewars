@@ -36,6 +36,19 @@ function maxDiff(list){
 }
 ```
 
+### Vowel One
+https://www.codewars.com/kata/580751a40b5a777a200000a1/train/javascript
+
+```JS
+function vowelOne(str){
+
+ return str.toLowerCase().split('').map(x => 
+    (x === 'a'|| x == 'e'||x == 'i'||x == 'o'||x == 'u')
+    ? 1: 0 ).join("")
+
+}
+```
+
 ### Maximum Multiple
 https://www.codewars.com/kata/5aba780a6a176b029800041c/train/javascript/60478b965fbb3d001ad9f0aa
 
