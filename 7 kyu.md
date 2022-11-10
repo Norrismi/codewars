@@ -60,6 +60,18 @@ return Math.floor(bound/divisor)*divisor
 }
 ```
 
+### Largest Elements
+https://www.codewars.com/kata/53d32bea2f2a21f666000256/train/javascript
+
+```JS
+function largest(n,arr){
+
+return (n === 0)
+  ? []
+  : arr.sort((a,b) => b-a).slice(0,n).sort((a,b)=>a-b)
+}
+```
+
 
 ### Sum of numerous arguments
 https://www.codewars.com/kata/55c5b03f8c28da9a51000045/train/javascript
