@@ -60,6 +60,15 @@ return Math.floor(bound/divisor)*divisor
 }
 ```
 
+### Categorize New Member
+https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript
+
+```JS
+function openOrSenior(data){
+ return data.map(a => (a[0] >= 55 && a[1] > 7)? 'Senior': 'Open')
+}
+```
+
 ### Largest Elements
 https://www.codewars.com/kata/53d32bea2f2a21f666000256/train/javascript
 
