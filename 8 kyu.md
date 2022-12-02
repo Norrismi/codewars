@@ -1159,6 +1159,16 @@ function abbrevName(name){
 
 ```
 
+Excluding first character, check if all characters are lowercase
+
+```JS
+function isAllX(str){
+  const cleanedUp = str.split('').slice(1).every(i => i == i.toLowerCase())
+  console.log(cleanedUp)
+}
+isAllX('HeLlo')
+```
+
 ### Area or Perimeter
 https://www.codewars.com/kata/5ab6538b379d20ad880000ab/train/javascript
 You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
