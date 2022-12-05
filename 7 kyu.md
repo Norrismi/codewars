@@ -81,6 +81,19 @@ return (n === 0)
 }
 ```
 
+### Especially Joyful Numbers
+https://www.codewars.com/kata/570523c146edc287a50014b1/train/javascript
+
+```JS
+function numberJoy(n) {
+    let get = n.toString().split('')
+    let sum = get.map(a => parseInt(a,10)).reduce((a,b) => a+b)
+    let sumR = Number(sum.toString().split('').reverse('').join(''))
+    let prod = sum*sumR;
+    return (prod == n)? true : false
+
+}
+```
 
 ### Sum of numerous arguments
 https://www.codewars.com/kata/55c5b03f8c28da9a51000045/train/javascript
