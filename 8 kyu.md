@@ -154,6 +154,22 @@ function warnTheSheep(queue) {
 }
 ```
 
+## Grasshopper - Summation
+https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
+```JS
+var summation = function (num) {
+  let arr = []
+
+    while(num >= 1){
+      arr.push(num)
+      num--
+    }
+
+  return arr.reduce((a,b)=> a+b)
+    
+}
+```
+
 ## Merge two sorted arrays into one
 https://www.codewars.com/kata/5899642f6e1b25935d000161/train/javascript/6055528fc53bb40023224e5b
 
