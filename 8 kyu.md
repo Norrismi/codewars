@@ -56,6 +56,15 @@ function shorter_reverse_longer(a, b) {
 }
 ```
 
+## Remove exclamation marks
+Remove exclamation marks
+
+```JS
+function removeExclamationMarks(s) {
+    return s.split('').filter(a => (a !== '!')).join('')
+}
+```
+
 ## FIXME: Replace all dots
 https://www.codewars.com/kata/596c6eb85b0f515834000049/train/javascript
 
