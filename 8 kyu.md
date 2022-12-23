@@ -1332,6 +1332,18 @@ function areYouPlayingBanjo(name) {
 }
 ```
 
+### Capitalize every other letter in a string
+
+```JS
+function EveryOther(str){
+
+let get = str.split('')
+  .map((a,i) => (i%2 == 0)? a.toUpperCase(): a).join('')
+
+  console.log(get)
+}
+```
+
 ### Correct the mistakes of the character recognition software
 https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software/train/javascript/5c338013fdcefd647d71c803
 
