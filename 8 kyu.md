@@ -95,6 +95,13 @@ const arr = N => {
 }
 ```
 
+## Beginner - Reduce but Grow
+https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
+
+```JS
+const grow = (x) => x.reduce((acc, cv)=> acc * cv)
+```
+
 ## Find Multiples of a Number
 https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/javascript
 
